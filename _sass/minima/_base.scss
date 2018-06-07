@@ -69,16 +69,9 @@ body {
   margin: 0 4%;
 
   @media (min-width: 64em) {
-    margin: 0 8%;
+    margin: 0 28%;
   }
 
-  @media (min-width: 85.375em) {
-    margin: 0 14%;
-  }
-
-  @media (min-width: 120em) {
-    margin: 0 20%;
-  }
 }
 .main {
   background-color: #fedbd0;
