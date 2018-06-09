@@ -45,6 +45,7 @@
 /* Single property */
 html {
   @include interpolate(font-size, 320px, 1366px, 14px, 20px);
+  box-sizing: border-box;
 }
 
 
