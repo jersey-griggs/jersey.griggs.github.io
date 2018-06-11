@@ -1,16 +1,26 @@
-.main-header{
+.main-header {
   position: relative;
+
   svg {
     position: fixed;
     padding: 2.82vw;
     width: 141px;
-    opacity: .86;
+    opacity: 0.86;
     border-right: 1px solid #442c2e;
+    transition: background-color 0.3s;
     @media (max-width: 1200px) {
       position: static;
       background-color: #fedbd0;
       border: none;
       width: 72px;
+    }
+
+    &:hover {
+      background-color: #442c2e;
+
+      g {
+        fill: #feeae6;
+      }
     }
   }
 }
