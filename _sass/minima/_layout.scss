@@ -5,6 +5,7 @@
     position: fixed;
     padding: 2.82vw;
     width: 141px;
+    top: 65px;
     opacity: 0.86;
     border-radius: 0 80px 80px 0;
     // border-right: 1px solid #442c2e;
@@ -27,4 +28,8 @@
 }
 .page-title {
   margin-top: 80px;
+}
+
+.post-list {
+  list-style: none;
 }
