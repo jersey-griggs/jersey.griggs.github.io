@@ -1,13 +1,12 @@
 .main-header {
   position: relative;
-
   svg {
     position: fixed;
     padding: 2.82vw;
     width: 141px;
-    top: 65px;
     opacity: 0.86;
     border-radius: 0 80px 80px 0;
+    top: 12px;
     // border-right: 1px solid #442c2e;
     transition: all 0.35s;
     @media (max-width: 1200px) {
@@ -26,10 +25,19 @@
     }
   }
 }
+
+.full-page.section {
+  min-height: 100vh;
+}
+
 .page-title {
   margin-top: 80px;
 }
 
 .post-list {
   list-style: none;
+}
+
+.page-content {
+  padding-top: 0px;
 }
