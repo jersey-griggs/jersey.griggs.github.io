@@ -32,10 +32,25 @@
     position: static;
     background-color: #fedbd0;
     width: 100%;
+    display: flex;
+    align-items: center;
   }
 
   nav {
     padding: 0 2.82vw;
+
+    a {
+      text-decoration: none;
+    }
+    @media (max-width: 1200px) {
+      h5 {
+        display: inline-block;
+
+        &:last-of-type {
+          margin-left: 20px;
+        }
+      }
+    }
   }
 
   svg {
@@ -82,7 +97,6 @@
 .full-page.section {
   min-height: 100vh;
 }
-
 // .page-title {
 //   margin-top: 80px;
 // }
@@ -90,23 +104,30 @@
 .post-list {
   list-style: none;
   padding: 0;
+
   a {
     text-decoration: none;
   }
+
   li {
+    position: relative;
+    z-index: 2;
     border: 2px solid #5e4749;
-    box-shadow: 5px 6px 0px #5e4749;
-    padding: 30px 30px 50px 30px;
-    margin-top: 30px;
+    box-shadow: 5px 6px 0 #5e4749;
+    padding: 30px 30px 50px;
+    margin-top: 60px;
+    &:first-of-type {
+      margin-top: 0;
+    }
     border-radius: 4px;
   }
+
   .button {
-    display: inline-block;
+    display: block;
     margin-top: 30px;
     text-decoration: underline;
   }
 }
-
 // .page-content {
 //   padding-top: 0;
 // }
