@@ -92,9 +92,9 @@ h2 + p {
 }
 h3 {
   font-size: 1.99rem;
-  // @media (max-width: 760px) {
-  //   font-size: 4.97vw;
-  // }
+  @media (max-width: 760px) {
+    font-size: 4.97vw;
+  }
 }
 h3 + p {
   margin-top: -1.33rem;
