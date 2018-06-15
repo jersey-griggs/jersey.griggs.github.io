@@ -19,6 +19,7 @@ layout: default
           </a>
         </h3>
       {{ post.content | strip_html | truncatewords: 50 }}
+        <a class="button" href="{{ post.url | relative_url }}">Read More</a>
       </li>
       {%- endfor -%}
     </ul>
