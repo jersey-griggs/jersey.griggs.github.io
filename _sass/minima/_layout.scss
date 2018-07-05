@@ -34,6 +34,23 @@
        // box-shadow: 5px 6px 0 #6D5B61;
  -webkit-box-shadow: 0 15px 35px rgb(254, 234, 231), 0 5px 15px rgb(254, 219, 208);
     box-shadow: 0 15px 35px rgb(254, 234, 231), 0 5px 15px rgb(254, 219, 208);
+    // z-index: 2;
+    // background-color: #feeae6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23442c2e' fill-opacity='0.14' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+      @media (max-width: 1200px) {
+        height: auto;
+      }
+    // &:after {
+    //   content: '';
+    //     position: absolute;
+    //     background-color: #fedbd0ed;
+    //     width: 8vw;
+    //     height: 150px;
+    //     top: -10vh;
+    //     z-index: -1;
+    //     transform: rotateZ(45deg);
+    //     left: 142px;
+    // }
   @media (max-width: 1200px) {
     position: static;
     background-color: #fedbd0;
