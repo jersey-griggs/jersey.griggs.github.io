@@ -21,7 +21,7 @@ layout: default
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       {%- if site.posts.size > 0 -%}
-    <h2>{{ page.list_title | default: "Posts" }}</h2>
+    <h2>{{ page.list_title | default: "Writing Samples" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
