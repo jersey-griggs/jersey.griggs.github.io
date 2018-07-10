@@ -22,28 +22,14 @@
 .main-header {
   position: fixed;
   text-align: center;
-  top: 0;
+  top: 10%;
       -ms-flex: 0 100px;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
       -ms-box-flex: 0;
       box-flex: 0;
-      height: 100%;
-  
-      @media (max-width: 1200px) {
-        height: auto;
-      }
-    // &:after {
-    //   content: '';
-    //     position: absolute;
-    //     background-color: #fedbd0ed;
-    //     width: 8vw;
-    //     height: 150px;
-    //     top: -10vh;
-    //     z-index: -1;
-    //     transform: rotateZ(45deg);
-    //     left: 142px;
-    // }
+    
+
   @media (max-width: 1200px) {
     position: static;
     background-color: #fedbd0;
