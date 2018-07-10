@@ -20,5 +20,22 @@ layout: default
     {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+      {%- if site.posts.size > 0 -%}
+    <h2>{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        <a class="button" href="{{ post.url | relative_url }}">Read More</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+
+  {%- endif -%}
   </section>
 <!-- </article> -->
