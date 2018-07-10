@@ -106,6 +106,10 @@
 .post-list {
   list-style: none;
   padding: 0;
+  grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
 
   a {
     text-decoration: none;
