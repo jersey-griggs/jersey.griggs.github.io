@@ -114,7 +114,9 @@
     @media(max-width:1450px) {
       grid-template-columns: 1fr 1fr;
     }
-
+    @media(max-width:910px) {
+      width: 100%;
+    }
   a {
     text-decoration: none;
     &:hover {
