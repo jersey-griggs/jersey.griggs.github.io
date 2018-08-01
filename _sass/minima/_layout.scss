@@ -111,6 +111,9 @@
   width: 66vw;
   &.prev-next {
     grid-template-columns: 1fr 1fr;
+    @media(max-width:680px) {
+      grid-template-columns: 1fr;
+    }
   }
   @media(max-width:1265px) {
     width: 100%;
@@ -157,7 +160,7 @@
     a {
       text-decoration: none;
     }
-    @media (max-width: 600px) {
+    @media (max-width: 680px) {
       float: none;
     }
     svg {
@@ -170,7 +173,7 @@
     a {
       text-decoration: none;
     }
-    @media (max-width: 600px) {
+    @media (max-width: 680px) {
       float: none;
     }
     svg {
