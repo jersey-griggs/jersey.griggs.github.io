@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Fart that was Smelled Around the World 2"
+title:  "Writing Sample One"
 date:   2018-06-06 22:44:29 -0400
 categories: samples
 ---
