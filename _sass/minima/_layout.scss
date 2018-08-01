@@ -28,7 +28,7 @@
       -moz-box-flex: 0;
       -ms-box-flex: 0;
       box-flex: 0;
-    
+
 
   @media (max-width: 1200px) {
     position: static;
@@ -131,7 +131,7 @@
     border: 2px solid #6D5B61;
     box-shadow: 5px 6px 0 #6D5B61;
     padding: 30px 30px 50px;
- 
+
     transition: all .25s ease;
     &:first-of-type {
       margin-top: 0;
@@ -145,4 +145,16 @@
     text-decoration: underline;
   }
 }
-
+.icon {
+  display: inline-block;
+&.left-arrow {
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
+&.right-arrow {
+   position: relative;
+   left: 10px;
+   top: 5px;
+ }
+}
