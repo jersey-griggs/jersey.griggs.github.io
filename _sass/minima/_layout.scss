@@ -22,14 +22,12 @@
 .main-header {
   position: fixed;
   text-align: center;
-  top: 60px;
-      -ms-flex: 0 100px;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -ms-box-flex: 0;
-      box-flex: 0;
-
-
+  top: 80px;
+  -ms-flex: 0 100px;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -ms-box-flex: 0;
+  box-flex: 0;
   @media (max-width: 1200px) {
     position: static;
     background-color: #fedbd0;
@@ -104,21 +102,27 @@
 // }
 
 .post-list {
-    list-style: none;
-    padding: 0;
-    grid-gap: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: baseline;
-    width: 66vw;
-    @media(max-width:1450px) {
-      grid-template-columns: 1fr 1fr;
-    }
-    @media(max-width:910px) {
-      width: 100%;
-    }
+  list-style: none;
+  padding: 0;
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: baseline;
+  grid-auto-flow: dense;
+  width: 66vw;
+  @media(max-width:1450px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media(max-width:910px) {
+    width: 100%;
+  }
+  @media(max-width:600px) {
+    grid-template-columns: 1fr;
+  }
+
   a {
     text-decoration: none;
+
     &:hover {
       text-decoration: underline;
     }
@@ -131,8 +135,8 @@
     border: 2px solid #6D5B61;
     box-shadow: 5px 6px 0 #6D5B61;
     padding: 30px 30px 50px;
+    transition: all 0.25s ease;
 
-    transition: all .25s ease;
     &:first-of-type {
       margin-top: 0;
     }
@@ -145,16 +149,37 @@
     text-decoration: underline;
   }
 }
+
 .icon {
   display: inline-block;
-&.left-arrow {
-  position: relative;
-  right: 10px;
-  top: 5px;
+  &.left-arrow {
+    float: left;
+    a {
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      float: none;
+    }
+    svg {
+      margin-right: 5px;
+    }
+  }
+
+  &.right-arrow {
+    float: right;
+    a {
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      float: none;
+    }
+    svg {
+      margin-left: 5px;
+    }
+  }
 }
-&.right-arrow {
-   position: relative;
-   left: 10px;
-   top: 5px;
- }
+
+.icon-text {
+  position: relative;
+  top: -4px;
 }

@@ -25,32 +25,33 @@ layout: default
     <ul class="post-list">
         {% if page.previous.url %}
       <li>
+        <div class="left-arrow icon">
         <a class="post-link" href="{{ page.previous.url }}">
-          <div class="left-arrow icon">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z"/></svg>
-          </div>
-          Previous Sample
+          <span class="icon-text">Previous Sample</span>
         </a>
-        <h3>
+        </div>
+        <h4>
           <a class="post-link" href="{{ page.previous.url }}">
           {{ page.previous.title }}
           </a>
-        </h3>
+        </h4>
         <a class="button" href="{{ page.previous.url }}">Read More</a>
       </li>
           {% endif %}
           {% if page.next.url %}
         <li>
-            <a class="post-link" href="{{ page.next.url }}">Next Sample
-              <div class="right-arrow icon">
+          <div class="right-arrow icon">
+            <a class="post-link" href="{{ page.next.url }}">
+              <span class="icon-text">Next Sample</span>
                 <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
-              </div>
             </a>
-          <h3>
+          </div>
+          <h4>
             <a class="post-link" href="{{ page.next.url }}">
           {{ page.next.title }}
             </a>
-          </h3>
+          </h4>
           <a class="button" href="{{ page.next.url }}">Read More</a>
         </li>
           {% endif %}
