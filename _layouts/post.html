@@ -21,20 +21,29 @@ layout: default
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       {%- if site.posts.size > 0 -%}
-    <h2>{{ page.list_title | default: "More Writing Samples" }}</h2>
+    <h2>{{ page.list_title | default: "Other Writing Samples" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+        {% if page.previous.url %}
       <li>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+          <a class="post-link" href="{{ page.previous.url }}">
+          {{ page.previous.title }}
           </a>
         </h3>
-        <a class="button" href="{{ post.url | relative_url }}">Read More</a>
+        <a class="button" href="{{page.next.url}}">Read More</a>
       </li>
-      {%- endfor -%}
+          {% endif %}
+          {% if page.next.url %}
+        <li>
+          <h3>
+            <a class="post-link" href="{{page.previous.url}}">
+          {{ page.next.title }}
+            </a>
+          </h3>
+          <a class="button" href="{{page.next.url}}">Read More</a>
+        </li>
+          {% endif %}
     </ul>
-
 
   {%- endif -%}
   </section>
