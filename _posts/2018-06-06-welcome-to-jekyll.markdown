@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Writing Sample One"
+title:  "Oldest Writing Sample"
 date:   2018-06-06 22:44:29 -0400
 categories: samples
 ---

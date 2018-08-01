@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Writing Sample Two"
+title:  "2nd Writing Sample"
 date:   2018-06-10 22:44:29 -0400
 categories: samples
 ---
