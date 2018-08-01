@@ -21,6 +21,7 @@ layout: default
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       {%- if site.posts.size > 0 -%}
+      <section class="subsection border-top">
     <h2>{{ page.list_title | default: "Other Writing Samples" }}</h2>
     <ul class="post-list">
         {% if page.previous.url %}
@@ -58,5 +59,6 @@ layout: default
     </ul>
 
   {%- endif -%}
+  </section>
   </section>
 <!-- </article> -->

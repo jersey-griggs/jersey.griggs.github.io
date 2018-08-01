@@ -138,3 +138,9 @@ h2.sub-header {
 .logo {
   margin: 0;
 }
+.subsection {
+  margin-top: 60px;
+  &.border-top {
+    border-top: 2px solid #442c2e;
+  }
+}
