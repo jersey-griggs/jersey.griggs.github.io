@@ -102,9 +102,10 @@
 .post-list {
   list-style: none;
   padding: 0;
-  grid-gap: 20px;
   display: grid;
+  grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   align-items: baseline;
   grid-auto-flow: dense;
   width: 71vw;
@@ -124,9 +125,7 @@
   }
 
   a {
-
       text-decoration: underline;
-
   }
 
   li {
@@ -137,7 +136,7 @@
     box-shadow: 5px 6px 0 #6D5B61;
     padding: 30px;
     transition: all 0.25s ease;
-
+    min-height: 225px;
     &:first-of-type {
       margin-top: 0;
     }
