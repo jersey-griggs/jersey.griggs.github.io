@@ -83,6 +83,12 @@ h2 {
   @media (max-width: 760px) {
     font-size: 7.05vw;
   }
+  &.small {
+    font-size: 1.99rem;
+    @media (max-width: 760px) {
+      font-size: 4.97vw;
+    }
+  }
 }
 h2 + p {
   margin-top: -1.33rem;

@@ -22,7 +22,7 @@ layout: default
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       {%- if site.posts.size > 0 -%}
       <section class="subsection border-top">
-    <h2>{{ page.list_title | default: "Other Writing Samples" }}</h2>
+    <h2 class="small">{{ page.list_title | default: "Other Writing Samples" }}</h2>
     <ul class="post-list prev-next">
         {% if page.previous.url %}
       <li>
