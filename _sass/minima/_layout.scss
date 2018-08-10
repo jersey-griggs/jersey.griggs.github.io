@@ -105,6 +105,12 @@
   grid-gap: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  &.feature {
+    width: 72vw;
+    @media(max-width:1265px) {
+      width: 100%;
+    }
+  }
   align-items: baseline;
   grid-auto-flow: dense;
   width: 66vw;
@@ -136,7 +142,7 @@
     background-color: #fff9f8;
     border: 2px solid #6D5B61;
     box-shadow: 5px 6px 0 #6D5B61;
-    padding: 30px 30px 50px;
+    padding: 30px;
     transition: all 0.25s ease;
 
     &:first-of-type {

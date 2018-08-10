@@ -9,7 +9,7 @@ layout: default
   {{ content }}
 <section class="subsection border-top">
   {%- if site.posts.size > 0 -%}
-    <h2>{{ page.list_title | default: "Posts" }}</h2>
+    <h2>{{ page.list_title | default: "Posts" | limit: 3 }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
