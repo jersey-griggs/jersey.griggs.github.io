@@ -102,27 +102,15 @@
 .post-list {
   list-style: none;
   padding: 0;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  align-items: baseline;
-  grid-auto-flow: dense;
+  display: flex;
+    justify-content: space-between;
+  flex-wrap: wrap;
   width: 61vw;
+
   &.prev-next {
-    grid-template-columns: 1fr 1fr;
     width: 100%;
-    @media(max-width:680px) {
-      grid-template-columns: 1fr;
-    }
   }
-  @media(max-width:1265px) {
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-  }
-  @media(max-width:680px) {
-    grid-template-columns: 1fr;
-  }
+
 
   a {
       text-decoration: underline;
@@ -134,13 +122,12 @@
     background-color: #fff9f8;
     border: 2px solid #6D5B61;
     box-shadow: 5px 6px 0 #6D5B61;
-    padding: 30px;
+    padding: 20px;
     transition: all 0.25s ease;
-    min-height: 225px;
-    &:first-of-type {
-      margin-top: 0;
-    }
     border-radius: 4px;
+    flex: 1;
+    margin-left: 20px;
+
   }
 
   .button {
