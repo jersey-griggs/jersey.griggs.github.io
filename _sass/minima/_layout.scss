@@ -113,6 +113,10 @@
     width: 100%;
     li {
       flex: 1 1 100%;
+      margin: 15px 0px;
+        &:first-of-type {
+        margin-top: 0px;
+    }
   }
 }
   &.prev-next {
@@ -135,6 +139,9 @@
     border-radius: 4px;
     flex: 1;
     margin: 10px;
+    &:first-of-type {
+      margin-left: 0px;
+    }
   }
 
   .button {
