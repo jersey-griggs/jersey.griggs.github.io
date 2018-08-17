@@ -106,7 +106,11 @@
     justify-content: space-between;
   flex-wrap: wrap;
   width: 61vw;
-
+  &.feature {
+    li {
+      flex-basis: calc(33.333% - 20px);
+    }
+  }
   &.prev-next {
     width: 100%;
   }
@@ -126,8 +130,7 @@
     transition: all 0.25s ease;
     border-radius: 4px;
     flex: 1;
-    margin-left: 20px;
-
+    margin: 10px;
   }
 
   .button {
