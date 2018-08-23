@@ -10,6 +10,9 @@ title: Writing Samples
         {{ post.title | escape }}
       </a>
     </h2>
+    {% if post.image %}
+      <img src="{{ post.image }}" alt="{{ post.title }}">
+    {% endif %}
     <p>{{ post.content | strip_html | truncatewords:75}}</p>
     <a class="button" href="{{ post.url | relative_url }}">Read More</a>
   </li>
