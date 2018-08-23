@@ -5,11 +5,12 @@ title: Writing Samples
 <ul class="post-list feature">
   {%- for post in site.posts -%}
   <li>
-    <h4>
+    <h2>
       <a class="post-link" href="{{ post.url | relative_url }}">
         {{ post.title | escape }}
       </a>
-    </h4>
+    </h2>
+    <p>{{ post.content | strip_html | truncatewords:75}}</p>
     <a class="button" href="{{ post.url | relative_url }}">Read More</a>
   </li>
   {%- endfor -%}
