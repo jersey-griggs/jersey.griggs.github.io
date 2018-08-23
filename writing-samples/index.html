@@ -14,7 +14,7 @@ title: Writing Samples
       <img src="{{ post.image }}" alt="{{ post.title }}" style="margin:0; border-radius: .2rem;">
     {% endif %}
     <p>{{ post.content | strip_html | truncatewords:75}}</p>
-    <a class="button" href="{{ post.url | relative_url }}">Read More</a>
+    <a class="button" href="{{ post.url | relative_url }}"><strong>Read More</strong></a>
   </li>
   {%- endfor -%}
 </ul>
