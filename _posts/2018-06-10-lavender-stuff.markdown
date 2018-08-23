@@ -3,7 +3,7 @@ layout: post
 title:  "Lavender Stuff"
 date:   2018-06-10 22:44:29 -0400
 categories: samples
-image: "images/lavender-featured.png"
+image: "/images/lavender-featured.png"
 ---
 
 
