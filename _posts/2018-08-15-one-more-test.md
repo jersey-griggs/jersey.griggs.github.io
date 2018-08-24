@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Even More Newest Writing Sample"
+description: "Some stuff about lavender"
 date:   2018-06-10 22:44:29 -0400
 categories: samples
 image: "/images/lavender-featured.png"

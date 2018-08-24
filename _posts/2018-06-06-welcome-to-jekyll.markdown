@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Oldest Writing Sample"
+description: "Some stuff about lavender"
 date:   2018-06-06 22:44:29 -0400
 categories: samples
 image: "/images/lavender-featured.png"
