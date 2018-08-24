@@ -3,7 +3,7 @@ layout: post
 title:  "Oldest Writing Sample"
 date:   2018-06-06 22:44:29 -0400
 categories: samples
-image: "http://lorempixel.com/1080/512/cats/"
+image: "/images/lavender-featured.png"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
