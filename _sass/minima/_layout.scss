@@ -18,7 +18,6 @@
 
   a.logo {
     display: flex;
-    padding-left: 3vw;
     @media(max-width: 767px) {
       padding: 16px;
     }
@@ -45,10 +44,13 @@
         list-style: none;
 
         a {
-          padding: 20px;
+          padding: 22px;
           display: block;
           text-decoration: none;
           transition: all 0.2s ease;
+          @media(max-width: 767px) {
+            padding: 10px;
+          }
 
           &:hover {
             background-color: #442c2e;
@@ -62,7 +64,7 @@
   svg {
     height: 50px;
     transition: transform 0.2s ease-out;
-
+    padding-left: 3vw;
     &:hover {
       transform: scale(1.1);
     }
@@ -194,10 +196,13 @@
   .hero {
     background-image: url("/images/plants.jpg");
     &.footer {
-      background-image: url("/images/plants-footer.jpg");
+      background: #fff4f1;
     }
     background-size: cover;
     padding: 128px 0;
+    @media(max-width: 767px) {
+      padding: 32px 0;
+    }
 
     h1 {
       text-align: center;
