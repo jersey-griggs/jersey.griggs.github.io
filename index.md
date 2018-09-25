@@ -11,9 +11,9 @@ Do you need quality content for your website or blog that will promote your prod
 
 Do you often find yourself trying to find the time or summon the energy to:
 
-Write that blog?
-Send that email?
-Freshen up that website?
+- Write that blog?
+- Send that email?
+- Freshen up that website?
 
 That’s where I come in.
 
