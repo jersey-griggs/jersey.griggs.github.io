@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 // viewport based typography mixin
 
@@ -45,7 +48,6 @@
 /* Single property */
 html {
   @include interpolate(font-size, 320px, 1366px, 16px, 20px);
-  box-sizing: border-box;
   height: 100%;
 }
 
@@ -123,14 +125,6 @@ h4 + p {
 a {
   color: #442c2e;
 }
-.text.container {
-  margin: 0 auto;
-  max-width: 720px;
-  @media (max-width: 760px) {
-    margin: 0 4%;
-  }
-
-}
 
 h2.sub-header {
   margin-top: 0px;
@@ -138,7 +132,7 @@ h2.sub-header {
 }
 .main {
   background-color: #fedbd0;
-
+  padding: 80px 0;
 }
 .logo {
   margin: 0;

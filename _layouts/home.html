@@ -3,32 +3,10 @@ layout: default
 ---
 
 <div class="home">
+  <div class="text container">
   {%- if page.title -%}
     <h1>{{ page.title }}</h1>
   {%- endif -%}
   {{ content }}
-<section class="subsection border-top">
-  {%- if site.posts.size > 0 -%}
-    <h2>{{ page.list_title | default: "Posts" }}</h2>
- <ul class="post-list feature">
-  {%- for post in site.posts limit:3 -%}
-  <li>
-    <h3>
-      <a class="post-link" href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
-    </h3>
-    {% if post.image %}
-      <img src="{{ post.image }}" alt="{{ post.title }}" style="margin:0; border-radius: .2rem;">
-    {% endif %}
-    <p>{{ post.description }}</p>
-    <a class="button" href="{{ post.url | relative_url }}"><strong>Read More</strong></a>
-  </li>
-  {%- endfor -%}
-</ul>
-
-  </section>
-
-  {%- endif -%}
-
+  </div>
 </div>
