@@ -12,7 +12,7 @@ title: Blog
       </a>
     </h2>
     {% if post.image %}
-      <img src="{{ post.image }}" alt="{{ post.title }}" style="margin:0; border-radius: .2rem;">
+      <img src="{{ post.image }}" alt="{{ post.title }}" class="post-image">
     {% endif %}
     <p>{{ post.description }}</p>
     <a class="button" href="{{ post.url | relative_url }}"><strong>Read More</strong></a>
