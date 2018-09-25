@@ -9,7 +9,7 @@ layout: home
 
 Do you need quality content for your website or blog that will promote your products and attract new customers?
 
-Do you often find yourself trying to find the time or summon the energy to:
+Do you often find yourself trying to find the time to:
 
 - *Write that blog?*
 - *Send that email?*
@@ -28,3 +28,4 @@ It’s a win-win.
 I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, and more. I’m here to help,
 
 Contact me and let’s get the ball rolling!
+	
