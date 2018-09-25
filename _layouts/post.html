@@ -20,14 +20,14 @@ layout: default
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       {%- if site.posts.size > 0 -%}
       <section class="subsection border-top">
-    <h2 class="small">{{ page.list_title | default: "Other Writing Samples" }}</h2>
+    <h2 class="small">{{ page.list_title | default: "More Blog Posts" }}</h2>
     <ul class="post-list prev-next">
         {% if page.previous.url %}
       <li>
         <div class="left-arrow icon">
         <a class="post-link" href="{{ page.previous.url }}">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z"/></svg>
-          <span class="icon-text">Previous Sample</span>
+          <span class="icon-text">Previous Post</span>
         </a>
         </div>
         <h4>
@@ -42,7 +42,7 @@ layout: default
         <li>
           <div class="right-arrow icon">
             <a class="post-link" href="{{ page.next.url }}">
-              <span class="icon-text">Next Sample</span>
+              <span class="icon-text">Next Post</span>
                 <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
             </a>
           </div>
