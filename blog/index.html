@@ -11,9 +11,9 @@ title: Blog
         {{ post.title | escape }}
       </a>
     </h2>
-    {% if post.image %}
+<!--     {% if post.image %}
       <img src="{{ post.image }}" alt="{{ post.title }}" class="post-image">
-    {% endif %}
+    {% endif %} -->
     <p>{{ post.description }}</p>
     <a class="button" href="{{ post.url | relative_url }}"><strong>Read More</strong></a>
   </li>
