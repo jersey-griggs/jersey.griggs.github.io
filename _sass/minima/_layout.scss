@@ -6,16 +6,34 @@
   position: fixed;
   z-index: 9;
   top: 0;
+  font-family: 'Roboto', sans-serif;
+  @media(max-width: 767px) {
+    position: static;
+    flex-direction: column;
+  }
+
   a.logo {
     display: flex;
+    padding-left: 3vw;
+    @media(max-width: 767px) {
+      padding: 16px;
+    }
   }
 
   nav {
     flex: 1;
+    padding-right: 3vw;
+    @media(max-width: 767px) {
+      padding: 0;
+    }
 
     ul {
       display: flex;
       justify-content: flex-end;
+      padding: 0;
+      @media(max-width: 767px) {
+        justify-content: space-between;
+      }
       margin: 0;
       flex-wrap: wrap;
 
@@ -23,15 +41,16 @@
         list-style: none;
 
         a {
-            padding: 20px;
-            display: block;
+          padding: 20px;
+          display: block;
+          text-decoration: none;
         }
       }
     }
   }
 
   svg {
-  height: 50px;
+    height: 50px;
   }
 }
 
@@ -150,5 +169,4 @@
   @media (max-width: 760px) {
     margin: 0 4%;
   }
-
 }
