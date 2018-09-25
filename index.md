@@ -5,9 +5,9 @@ title: "Jersey Griggs"
 list_title: "Blog"
 layout: home
 ---
-Are you a small business with a mindful mission?
+## Are you a small business with a mindful mission?
 
-Do you need quality content for your website or blog that will promote your products and attract new customers?
+### Do you need quality content for your website or blog that will promote your products and attract new customers?
 
 Do you often find yourself trying to find the time or summon the energy to:
 
