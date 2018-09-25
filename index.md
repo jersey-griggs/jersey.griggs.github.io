@@ -5,9 +5,26 @@ title: "Jersey Griggs"
 list_title: "Blog"
 layout: home
 ---
-## Hello, Some Stuff Here
+Are you a small business with a mindful mission?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Do you need quality content for your website or blog that will promote your products and attract new customers?
 
-### More Titles
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Do you often find yourself trying to find the time or summon the energy to:
+
+Write that blog?
+Send that email?
+Freshen up that website?
+
+That’s where I come in.
+
+I’m Jersey Griggs and I’m a freelance copywriter for hire. I specialize in alternative health and wellness writing and outdoor travel. I create informative, relevant, and compelling content that captivates your customers and sells your products.
+
+And I love working for clients who are mindful of their business and mission.
+
+I help you reach your goals so that you can help your customers.
+
+It’s a win-win.
+
+I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, and more. I’m here to help,
+
+Contact me and let’s get the ball rolling!
