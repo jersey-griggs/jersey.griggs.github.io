@@ -9,7 +9,7 @@ layout: home
 
 Do you need quality content for your website or blog that will promote your products and attract new customers?
 
-Do you often find yourself trying to find the time to:
+Are you struggling to find the time to:
 
 - *Write that blog?*
 - *Send that email?*
