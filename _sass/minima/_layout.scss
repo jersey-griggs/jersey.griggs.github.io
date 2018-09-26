@@ -215,6 +215,9 @@
     &.footer {
       background-image: url("/images/plants.jpg");
       padding: 60px 0;
+          @media(max-width: 767px) {
+      padding: 24px 0;
+    }
     }
     background-size: cover;
     padding: 128px 0;
@@ -228,6 +231,9 @@
       text-align: center;
       margin-bottom: 0;
       padding-top: 60px;
+    @media(max-width: 767px) {
+      padding: 0;
+    }
       padding-bottom: 0;
     }
 
