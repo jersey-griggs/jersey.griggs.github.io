@@ -195,8 +195,9 @@
   }
 
   .hero {
-    background-image: url("/images/plants.jpg");
+    background-image: url("/images/plants.jpeg");
     position: relative;
+    background-position-y: 40%;
     &.overlay {
     &:after {
       content: '';
@@ -224,6 +225,7 @@
       z-index: 2;
       text-align: center;
       margin-bottom: 0;
+      padding-top: 60px;
     }
 
     h3 {
