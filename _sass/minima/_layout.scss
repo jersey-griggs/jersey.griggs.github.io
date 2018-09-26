@@ -92,17 +92,14 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 61vw;
-  @media(max-width: 1200px) {
     width: 100%;
-  }
 
   &.feature {
     width: 100%;
 
     li {
       flex: 1 1 100%;
-      margin: 2rem 0;
+      margin: 1rem 0;
 
       &:first-of-type {
         margin-top: 0;
@@ -124,7 +121,7 @@
     background-color: #fff9f8;
     border: 2px solid #6D5B61;
     box-shadow: 5px 6px 0 #6D5B61;
-    padding: 20px;
+    padding: 16px;
     transition: all 0.25s ease;
     border-radius: 4px;
     flex: 1;
