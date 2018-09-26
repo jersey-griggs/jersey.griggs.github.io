@@ -72,6 +72,9 @@
 
 .section {
   padding: 60px 0;
+  &.tight {
+    padding: 30px 0;
+  }
   @media (max-width: 1200px) {
     padding: 30px 0;
   }
