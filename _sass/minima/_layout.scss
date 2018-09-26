@@ -211,7 +211,7 @@
     }
   }
     &.footer {
-      background: #fff4f1;
+      background-image: url("/images/plants.jpg");
       padding: 60px 0;
     }
     background-size: cover;
@@ -235,4 +235,10 @@
       text-align: center;
     }
   }
+}
+
+.form-wrap {
+  background-color: #fcfcfc;
+  padding: 40px;
+  border-radius: 4px;
 }
