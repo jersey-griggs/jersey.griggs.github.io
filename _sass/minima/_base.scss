@@ -160,7 +160,8 @@ form {
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
 }
-input {
+input,
+textarea {
 font-size: 18px;
 padding: 8px;
 border: 2px solid #6D5B61;
@@ -170,6 +171,9 @@ border: 2px solid #6D5B61;
     font-family: 'Roboto', sans-serif;
 }
 
+textarea {
+  height: 120px;
+}
 label {
   margin-top: 24px;
 }
