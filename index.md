@@ -12,8 +12,8 @@ Do you need quality content for your website or blog that will promote your prod
 Are you struggling to find the time to:
 
 - *Write that blog?*
-- *Craft that email?*
-- *Freshen up that website?*
+- *Compose that email?*
+- *Draft that web copy?*
 
 ## That’s where I come in.
 
