@@ -23,7 +23,7 @@ layout: default
     <h2 class="small">{{ page.list_title | default: "More Blog Posts" }}</h2>
     <ul class="more-post prev-next">
         {% if page.previous.url %}
-      <li>
+      <li style="background-image: url({{ page.previous.image }});">
         <div class="left-arrow icon">
         <a class="post-link" href="{{ page.previous.url }}">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z"/></svg>
@@ -39,7 +39,7 @@ layout: default
       </li>
           {% endif %}
           {% if page.next.url %}
-        <li>
+          <li style="background-image: url({{ page.next.image }});">
           <div class="right-arrow icon">
             <a class="post-link" href="{{ page.next.url }}">
               <span class="icon-text">Next Post</span>
