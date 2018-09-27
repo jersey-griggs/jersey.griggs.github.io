@@ -366,4 +366,7 @@
 
 .skew {
   transform: rotateZ(-33deg);
+  @media(max-width: 767px) {
+    transform: inherit;
+  }
 }
