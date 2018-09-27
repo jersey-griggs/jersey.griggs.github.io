@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Even More Newest Writing Sample"
-description: "Some stuff about lavender"
+description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
 date:   2018-06-10 22:44:29 -0400
 categories: samples
 image: "/images/desk.jpg"
