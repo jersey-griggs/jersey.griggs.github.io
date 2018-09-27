@@ -5,7 +5,7 @@ layout: default
   <section class="section page-hero" style="background-image:url({{ page.hero-image }})">
     <div class="text container">
       <section class="subsection">
-        <h1 class="post-title align-center">{{ page.title | escape }}</h1>
+        <h1 class="post-title align-center{% if page.skew-heading == true %} skew{% endif %}">{{ page.title | escape }}</h1>
       </header>
     </div>
 </section>
