@@ -126,6 +126,9 @@ h4 + p {
 a {
   color: #442c2e;
 }
+hr {
+  border-color: rgba(253, 234, 228, 0.5);
+}
 
 h2.sub-header {
   margin-top: 0px;
@@ -195,6 +198,6 @@ label {
     box-shadow: 5px 6px 0 #1d4f6b;
     transition: all .2s ease;
     &:hover {
-      background-color: lighten(#1d4f6b, 15%);   
+      background-color: lighten(#1d4f6b, 15%);
     }
 }
