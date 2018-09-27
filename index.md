@@ -12,7 +12,7 @@ Do you need quality content for your website or blog that will promote your prod
 Are you struggling to find the time to:
 
 - *Write that blog?*
-- *Send that email?*
+- *Craft that email?*
 - *Freshen up that website?*
 
 ## That’s where I come in.
