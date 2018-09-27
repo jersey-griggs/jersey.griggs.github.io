@@ -25,7 +25,7 @@ I help you reach your goals so that you can help your customers.
 
 It’s a win-win.
 
-I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, and more. I’m here to help,
+I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, and more. 
 
 Contact me and let’s get the ball rolling!
 	
