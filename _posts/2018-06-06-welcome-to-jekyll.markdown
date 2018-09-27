@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Oldest Writing Sample"
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+description: "Lorem ipsum dolor sit amet."
 date:   2018-06-06 22:44:29 -0400
 categories: Gardening
 image: "/images/abstract.jpg"
