@@ -5,7 +5,7 @@ description: "Lorem ipsum dolor sit amet."
 date:   2018-9-28 22:44:29 -0400
 categories:
   - Health & Wellness
-image: "/images/snow.jpg"
+image: "/images/beach-calm-dawn.jpg"
 author: Jersey Griggs
 ---
 
