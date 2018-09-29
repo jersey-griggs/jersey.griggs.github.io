@@ -170,6 +170,11 @@ border: 2px solid #6D5B61;
     background-color: #fff9f8;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
+    transition: box-shadow .3s ease;
+    &:focus,
+    &:active {
+      box-shadow: none;
+    }
 }
 
 textarea {
