@@ -25,7 +25,7 @@ layout: default
     {%- include disqus_comments.html -%} {%- endif -%}
     <div class="text container">
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-      {%- if site.posts.size >= 1 -%}
+      {%- if site.posts.size > 1 -%}
       <section class="subsection border-top">
     <h2 class="small">{{ page.list_title | default: "More Blog Posts" }}</h2>
     <ul class="more-post prev-next">
