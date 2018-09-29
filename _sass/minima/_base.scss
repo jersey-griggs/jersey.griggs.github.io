@@ -77,20 +77,11 @@ h1 {
   font-size: 2.44rem;
   margin-top: 40px;
   font-weight: 600;
-  @media (max-width: 760px) {
-    font-size: 9.95vw;
-  }
 }
 h2 {
   font-size: 1.953rem;
-  @media (max-width: 760px) {
-    font-size: 7.05vw;
-  }
   &.small {
     font-size: 1.61rem;
-    @media (max-width: 760px) {
-      font-size: 4.97vw;
-    }
   }
 }
 h2 + p {
@@ -101,9 +92,6 @@ h2 + p {
 }
 h3 {
   font-size: 1.563rem;
-  @media (max-width: 760px) {
-    font-size: 4.97vw;
-  }
 }
 h3 + p {
   margin-top: -1.33rem;
@@ -113,9 +101,6 @@ h3 + p {
 }
 h4 {
   font-size: 1.25rem;
-  // @media (max-width: 760px) {
-  //   font-size: 3.52vw;
-  // }
 }
 h4 + p {
   margin-top: -1.33rem;

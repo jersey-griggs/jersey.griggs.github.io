@@ -4,7 +4,7 @@ title:  "3 Secrets to Beginner Meditation (And Why It's Easier Than You Think)"
 description: "Lorem ipsum dolor sit amet."
 date:   2018-9-28 22:44:29 -0400
 categories: "Wellness"
-image: "/images/beach-calm-dawn.jpg"
+image: "/images/snow.jpg"
 ---
 
 It’s no secret that starting a meditation practice is a good idea. Meditation can reduce anxiety, help you focus, and give you a  boost in the health department.
