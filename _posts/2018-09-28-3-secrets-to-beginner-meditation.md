@@ -3,7 +3,8 @@ layout: post
 title:  "3 Secrets to Beginner Meditation (And Why It's Easier Than You Think)"
 description: "Lorem ipsum dolor sit amet."
 date:   2018-9-28 22:44:29 -0400
-categories: "Wellness"
+categories:
+  - Health & Wellness
 image: "/images/snow.jpg"
 ---
 

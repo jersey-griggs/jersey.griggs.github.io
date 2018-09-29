@@ -28,7 +28,7 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
-permalink: none
+permalink: /blog/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
