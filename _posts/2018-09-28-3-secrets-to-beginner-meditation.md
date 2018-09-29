@@ -3,13 +3,13 @@ layout: post
 title:  "3 Secrets to Beginner Meditation (And Why It's Easier Than You Think)"
 description: "Lorem ipsum dolor sit amet."
 date:   2018-9-28 22:44:29 -0400
-categories: "Health & Wellness"
+categories: "Wellness"
 image: "/images/beach-calm-dawn.jpg"
 ---
 
 It’s no secret that starting a meditation practice is a good idea. Meditation can reduce anxiety, help you focus, and give you a  boost in the health department.
 
-Then why don’t more people meditate? Sitting down to meditate can be intimidating. And if you don’t do it right, numb legs and extreme boredom might make you quit after the first try. 
+Then why don’t more people meditate? Sitting down to meditate can be intimidating. And if you don’t do it right, numb legs and extreme boredom might make you quit after the first try.
 
 But meditation doesn’t have to be so hard. And eventually, meditation can become more of a reward than a challenge. After all, wouldn’t you like to escape the stress of your daily life by sitting and breathing? Sure, you would.
 
@@ -19,7 +19,7 @@ The trick is to give yourself a break and allow yourself to be a beginner. Here 
 
 ### Find a Comfortable Seat
 
-Getting comfortable is the most important factor in beginning a meditation practice. When you’re uncomfortable, your mind will only focus on your numb legs or aching back. And there’s no chance you’re going to find your inner peace with those obstacles in the way. 
+Getting comfortable is the most important factor in beginning a meditation practice. When you’re uncomfortable, your mind will only focus on your numb legs or aching back. And there’s no chance you’re going to find your inner peace with those obstacles in the way.
 
 ***So you need to be comfortable before you even start.***
 
@@ -42,13 +42,13 @@ You can also try your local yoga studio to see if they offer meditation classes.
 
 ### Start Small
 
-Is it good to meditate for 30 minutes a day/7 days a week? Yes, of course. Is it realistic for your busy and hectic life? Probably not. 
+Is it good to meditate for 30 minutes a day/7 days a week? Yes, of course. Is it realistic for your busy and hectic life? Probably not.
 
 ***Starting small is the most realistic way to meditate every day.***
 
 Begin with 5-10 minutes of guided meditation every day, for 10 days. After 10 days, if you feel comfortable enough, increase the time to 15 minutes.
 
-Make these 10-15 minutes a part of your daily routine, as necessary as brushing your teeth. Meditate in the morning after you’ve had your cup of coffee or find a quiet place in your office during lunch. Meditate after you put the kids to bed or before you begin your nighttime routine. 
+Make these 10-15 minutes a part of your daily routine, as necessary as brushing your teeth. Meditate in the morning after you’ve had your cup of coffee or find a quiet place in your office during lunch. Meditate after you put the kids to bed or before you begin your nighttime routine.
 
 Find a time that works for you and stick with it. You won’t regret it.
 

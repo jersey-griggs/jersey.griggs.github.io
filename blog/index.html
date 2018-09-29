@@ -15,7 +15,7 @@ title: Blog
               {{ post.title | escape }}
             </a>
           </h2>
-          <p>{{ post.content  | strip_html | truncatewords:25 }}</p>
+          <p>{{ post.content | strip_html | truncatewords:25 }}</p>
           <a class="button" href="{{ post.url | relative_url }}"><strong>Read More</strong></a>
         </div>
       </li>
