@@ -391,3 +391,19 @@
     transform: inherit;
   }
 }
+
+.social-media-list {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+  list-style-type: none;
+  text-align: center;
+    li {
+      display: inline-block;
+      width: 40px;
+      a {
+        display: block;
+      }
+    }
+}
