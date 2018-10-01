@@ -25,4 +25,4 @@ I specialize in alternative health and wellness and outdoor travel and recreatio
 
 I help you reach your goals so you can help your customers.
 
-Contact me to discuss how I can be of help on your project!
+Contact me to start the conversation!
