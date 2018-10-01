@@ -19,7 +19,7 @@ Are you struggling to find the time to:
 
 I’m Jersey Griggs, a freelance copywriter for hire. I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, and more. 
 
-I specialize in alternative health and wellness and outdoor travel and recreation, but am not limited to these areas. I create informative, relevant, and compelling content that captivates your customers and sells your products.
+I specialize in alternative health and wellness and outdoor travel and recreation. I create informative, relevant, and compelling content that captivates your customers and sells your products.
 
 *And I love working for clients who are mindful of their business and mission.*
 
