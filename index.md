@@ -24,8 +24,8 @@ I specialize in alternative health and wellness writing and outdoor travel—[bu
 
 I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, and more. I create informative, relevant, and compelling content that captivates your customers and sells your products.
 
-*I love working for clients who are mindful of their business and mission.*
+*And I love working for clients who are mindful of their business and mission.*
 
-I help you reach your goals so you can help your customers.
+I help you reach your goals, so you can help your customers.
 
 Contact me and let's start a conversation!
