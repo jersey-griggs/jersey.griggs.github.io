@@ -1,9 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: "Jersey Griggs"
-list_title: "Blog"
 layout: home
+description: "Freelance writing"
 ---
 ## Are you a small business with a mindful mission?
 
