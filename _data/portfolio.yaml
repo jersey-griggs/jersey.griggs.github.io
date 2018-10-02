@@ -1,8 +1,8 @@
-- title: "Item One Title Article"
+- title: "Off the Beaten Path in Acadia, Maine: Isle Au Haut"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
-  category: "Some Category"
-  image: 'https://loremflickr.com/320/240'
-  url: '/blog/'
+  category: "Outdoor Travel"
+  image: 'https://www.nps.gov/acad/learn/management/images/RM-Isle_au_Haut.jpg?maxwidth=650&autorotate=false'
+  url: 'https://www.roadtripsforfamilies.com/off-the-beaten-path-isle-au-haut'
 
 - title: "Item Two Title Article"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
