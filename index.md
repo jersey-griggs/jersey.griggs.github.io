@@ -28,4 +28,4 @@ I work with clients who need blog content, web content, landing pages, email mar
 
 I help you reach your goals, so you can help your customers.
 
-[Contact me](/#contact) and let's start a conversation!
+**[Contact me](/#contact)** and let's start a conversation!
