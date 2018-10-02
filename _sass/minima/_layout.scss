@@ -317,7 +317,12 @@
     background-image: url("/images/plants.jpeg");
     position: relative;
     background-position-y: 40%;
-
+    h1 {
+      font-size: 3.6rem;
+    }
+    h2 {
+      font-size: 2.4rem;
+    }
     &.overlay {
       &:after {
         content: '';
@@ -350,21 +355,18 @@
       text-align: center;
       margin-bottom: 0;
       padding-top: 60px;
-      font-size: 3.6rem;
       @media(max-width: 767px) {
         padding: 0;
       }
       padding-bottom: 0;
     }
 
-    h2 {
+    h3 {
       position: relative;
       z-index: 2;
       margin: 0;
-      font-size: 2.6rem;
       text-align: center;
       padding: 0;
-      margin-top: 8px;
     }
   }
 }
