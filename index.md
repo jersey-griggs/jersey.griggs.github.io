@@ -1,7 +1,7 @@
 ---
 title: "Jersey Griggs"
 layout: home
-description: "Freelance writing"
+description: "Need a freelance writer for hire? I provide copy writing for mission-focused businesses who need blogs, articles, emails, webpages, and more."
 ---
 ## Are you a small business with a mindful mission?
 
