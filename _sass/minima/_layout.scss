@@ -393,17 +393,25 @@
 }
 
 .social-media-list {
+  display: block;
+  list-style: none;
   margin: 0;
   padding: 0;
-  height: auto;
-  width: auto;
-  list-style-type: none;
   text-align: center;
-    li {
-      display: inline-block;
-      width: 40px;
-      a {
-        display: block;
-      }
-    }
+  li {
+    display: inline-block;
+    text-align: center;
+  }
+  a, svg {
+    display: block;
+  }
+  a {
+    height: 3.6rem;
+    width: 3.6rem;
+  }
+  svg {
+    height: 100%;
+    width: 100%;
+  }
 }
+
