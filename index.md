@@ -20,7 +20,7 @@ Are you struggling to find the time to:
 
 I specialize in alternative health and wellness writing and outdoor travel—[but I am not limited to these areas](/about/).
 
-I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, and more. I create informative, relevant, and compelling content that captivates your customers and sells your products.
+I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, social media, and more. I create informative, relevant, and compelling content that captivates your customers and sells your products.
 
 *And I love working for clients who are mindful of their business and mission.*
 
