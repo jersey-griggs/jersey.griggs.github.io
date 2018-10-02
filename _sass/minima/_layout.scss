@@ -107,8 +107,15 @@
     opacity: .7;
   }
   &.portfolio {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin-top: 24px;
+  .img-container {
+    width: 180px;
+    @media(max-width: 767px) {
+        height: 72px;
+        width: 100%;
+    }
+  }
     img {
       margin: 0;
     }
