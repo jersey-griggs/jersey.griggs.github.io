@@ -18,7 +18,7 @@ Are you struggling to find the time to:
 ## That’s where I come in.
 
 
-I’m Jersey Griggs, a freelance copywriter for hire. 
+![Jersey Griggs](/images/jersey-small.jpg) I’m Jersey Griggs, a freelance copywriter for hire. 
 
 I specialize in alternative health and wellness writing and outdoor travel—[but I am not limited to these areas](/about/).
 
