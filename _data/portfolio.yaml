@@ -2,16 +2,16 @@
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
   category: "Some Category"
   image: 'https://loremflickr.com/320/240'
-  url: 'http://info.appneta.com/How-to-Monitor-Saas-Applications.html?Ref__c=20790'
+  url: '/blog/'
 
 - title: "Item Two Title Article"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
   category: "Some Category"
   image: 'https://loremflickr.com/320/240'
-  url: 'http://info.appneta.com/How-to-Monitor-Saas-Applications.html?Ref__c=20790'
+  url: '/about/'
 
 - title: "Item Title Article"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
   category: "Some Category"
   image: 'https://loremflickr.com/320/240'
-  url: 'http://info.appneta.com/How-to-Monitor-Saas-Applications.html?Ref__c=20790'
+  url: ''

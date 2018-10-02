@@ -7,12 +7,14 @@ description: "Hire for content writing"
  {% assign portfolio = site.data.portfolio %}
          {% for content in portfolio %}
         <div class="portfolio card">
+        	<a href="{{ content.url }}">
           <div class="img-container" style="background-image: url({{ content.image }});">
           </div>
           <div class="card-content">
             <h4>{{ content.title }}</h4>
             <p><a href="{{ content.url }}">View {{ content.category}}</a></p>
           </div>
+          </a>
         </div>
         {% endfor %}
         </div>
