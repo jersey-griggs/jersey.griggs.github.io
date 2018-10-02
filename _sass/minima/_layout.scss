@@ -109,6 +109,9 @@
   &.portfolio {
     grid-template-columns: repeat(4, 1fr);
     margin-top: 24px;
+  .card-content {
+    padding: 0 30px;
+  }
   .img-container {
     width: 180px;
     @media(max-width: 600px) {
