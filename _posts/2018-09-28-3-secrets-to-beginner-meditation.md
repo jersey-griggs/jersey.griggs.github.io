@@ -7,6 +7,7 @@ categories:
   - Health & Wellness
 image: "/images/beach-calm-dawn.jpg"
 author: Jersey Griggs
+inverted-header: true
 comments: true
 ---
 
