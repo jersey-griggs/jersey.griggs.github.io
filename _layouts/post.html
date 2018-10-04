@@ -20,9 +20,9 @@ layout: default
       {{ content }}
       </section>
     </div>
-
-    {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%} {%- endif -%}
+    <div class="text container">
+    {%- include disqus_comments.html -%} 
+    </div>
     <div class="text container">
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       {%- if site.posts.size > 1 -%}
