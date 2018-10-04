@@ -7,6 +7,7 @@ categories:
   - Health & Wellness
 image: "/images/beach-calm-dawn.jpg"
 author: Jersey Griggs
+comments: true
 ---
 
 It’s no secret that starting a meditation practice is a good idea. Meditation can reduce anxiety, help you focus, and give you a  boost in the health department.
