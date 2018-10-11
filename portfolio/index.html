@@ -3,15 +3,27 @@ layout: page
 title: "Portfolio"
 description: "Check out my published articles, blog posts, and web copy in my copywriting portfolio."
 ---
+
+
 <div class="text container">
 <p>Below is a collection of my published work, varying from blog and article posts to web copy for businesses.  Click on the links provided to see the full body of work. Although I specialize in alternative health and wellness and outdoor travel and recreation, I am open to working with new industries. <a href="/#contact"><strong>Contact me</strong></a> if you are interested in discussing your project at hand.</p>
  <p>You also can head on over to <a href="/blog/">my blog</a> where I write about my personal interests, which vary from meditation to skiing to Ayurveda and herbalism.</p>
 </div>
 <section class="subsection">
-<div class="text container">
- {% assign portfolio = site.data.portfolio %}
+  <div class="text container">
+
+
+{% assign categories =  site.data.portfolio | map: 'category' | uniq %}
+{% for category in categories %}
+    <a class="item filter" data-filter=".{{ category | remove: " " | remove: "&" }}">
+    {{ category }}
+  </a>
+{% endfor %}
+
+        <div class="portfolio-wrap">
+          {% assign portfolio = site.data.portfolio %}
          {% for content in portfolio %}
-        <div class="portfolio card">
+        <div class="portfolio card mix {{ content.category | remove: " "  | remove: "&" }}">
         	<a target="_blank" href="{{ content.url }}">
           <div class="img-container" style="background-image: url({{ content.image }});">
           </div>
@@ -23,4 +35,9 @@ description: "Check out my published articles, blog posts, and web copy in my co
         </div>
         {% endfor %}
         </div>
+        </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+<script>
+  var mixer = mixitup('.portfolio-wrap');
+</script>
