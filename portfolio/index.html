@@ -3,6 +3,12 @@ layout: page
 title: "Portfolio"
 description: "Check out my published articles, blog posts, and web copy in my copywriting portfolio."
 ---
+<style type="text/css">
+.filter {
+  cursor: pointer;
+  margin: 0;
+}
+</style>
 
 
 <div class="text container">
@@ -12,13 +18,15 @@ description: "Check out my published articles, blog posts, and web copy in my co
 <section class="subsection">
   <div class="text container">
 
-
+  <p><strong>Filter by Category:</strong></p> 
 {% assign categories =  site.data.portfolio | map: 'category' | uniq %}
+<p class="item filter" data-filter="all">All</p>
 {% for category in categories %}
-    <a class="item filter" data-filter=".{{ category | remove: " " | remove: "&" }}">
+    <p class="item filter" data-filter=".{{ category | remove: " " | remove: "&" }}">
     {{ category }}
-  </a>
+  </p>
 {% endfor %}
+
 
         <div class="portfolio-wrap">
           {% assign portfolio = site.data.portfolio %}
