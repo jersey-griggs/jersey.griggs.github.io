@@ -30,7 +30,7 @@ The high number of resorts on this pass also comes with a high price tag. If you
 
 
 ## The Gnarly
-[Jackson Hole](https://www.whistlerblackcomb.com/){:target="_blank"}  is one of the most renowned ski resorts in the country, offering tons of steeps that will turn your thighs to jelly. The town of Jackson is a unique mix between ritzy and Western, but the mountain is filled with locals that can rip. If you want to skip a day at the resort, the Teton Pass offers phenomenal backcountry skiing and incredible views (but don’t forget to pack your avalanche beacon!)
+[Jackson Hole](https://www.whistlerblackcomb.com/){:target="_blank"}  is one of the most renowned ski resorts in the country, offering tons of steeps that will turn your thighs to jelly. The town of Jackson may be filled with ritzy ski bunnies, but the mountain is filled with locals that can rip. If you want to skip a day at the resort, the Teton Pass offers phenomenal backcountry skiing and incredible views (but don’t forget to pack your avalanche beacon!)
 
 ## 2. The Epic Pass
 
