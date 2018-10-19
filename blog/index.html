@@ -3,9 +3,10 @@ layout: page
 title: Blog
 description: "Check out more of my work on my blog where I write about all my interests, especially health & wellness and outdoor recreation and travel."
 ---
-
-When I'm not writing for other people, I like to write just for fun. Here's the latest.
-
+<div class="text container">
+<p>When I'm not writing for other people, I like to write just for fun. Here's the latest.</p>
+</div>
+<section class="subsection">
 <div class="text container">
 <ul class="post-list feature">
   {%- for post in site.posts -%}
@@ -24,11 +25,7 @@ When I'm not writing for other people, I like to write just for fun. Here's the 
         </div>
       </li>
 
-
-<!--     {% if post.image %}
-      <img src="{{ post.image }}" alt="{{ post.title }}" class="post-image">
-    {% endif %} -->
-
   {%- endfor -%}
 </ul>
 </div>
+</section>
