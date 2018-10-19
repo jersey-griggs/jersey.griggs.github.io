@@ -2,7 +2,7 @@
 layout: post
 title:  "The Good, The Bad, and The Gnarly: Which Multi-Resort Ski Pass Should You Buy?"
 description: "Lorem ipsum dolor sit amet."
-date:   2018-9-28 22:44:29 -0400
+date:   2018-10-19 22:44:29 -0400
 categories:
   - Outdoor Recreation
 image: "/images/mid-air-ski.jpg"
