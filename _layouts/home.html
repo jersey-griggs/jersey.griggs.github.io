@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<!-- Jarallax -->
+<script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
 <div class="home">
   <section class="hero overlay jarallax">
     <div class="text container">
@@ -15,7 +17,7 @@ layout: default
       {{ content }}
     </div>
   </section>
-  <section class="hero footer" id="contact">
+  <section class="hero footer jarallax" data-jarallax data-speed="1.3" id="contact">
     <div class="text container">
       <h2 class="small">Contact Me</h2>
       <p>Interested in discussing a project? I'd love to hear from you! Email me at <strong>jerseygriggs.writes@gmail.com</strong> or use the contact form below.</p>
@@ -35,10 +37,8 @@ layout: default
     </div>
   </section>
 </div>
-<!-- Jarallax -->
-<script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
 <script>
   jarallax(document.querySelectorAll('.jarallax'), {
-    speed: 0.2
+    speed: .7
   });
 </script>
