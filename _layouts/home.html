@@ -2,36 +2,43 @@
 layout: default
 ---
 <div class="home">
-<section class="hero overlay">
-  <div class="text container">
-    {%- if page.title -%}
-    <h1>{{ page.title }}</h1>
-     {%- endif -%}
-     <h2 class="align-center">Freelance Writer</h2>
-  </div>
-</section>
-<section class="section">
-<div class="text container">
-  {{ content }}
-</div>
-</section>
-<section class="hero footer" id="contact">
-  <div class="text container">
-    <h2 class="small">Contact Me</h2>
-    <p>Interested in discussing a project?  I'd love to hear from you! Email me at <strong>jerseygriggs.writes@gmail.com</strong> or use the contact form below.</p>
-<section class="tight subsection">
-<div class="form-wrap">
-  <form action="https://formspree.io/jerseygriggs.writes@gmail.com" method="POST">
-    <label for="name">Name:</label>
-    <input type="text" name="name">
-    <label  for="name">Email:</label>
-    <input type="email" name="_replyto">
-    <label  for="message">Your Message:</label>
-    <textarea name="message"></textarea>
-    <input type="submit" class="submit button" value="Send">
-  </form>
-</div>
+  <section class="hero overlay jarallax">
+    <div class="text container">
+      {%- if page.title -%}
+      <h1>{{ page.title }}</h1>
+      {%- endif -%}
+      <h2 class="align-center">Freelance Writer</h2>
+    </div>
+  </section>
+  <section class="section">
+    <div class="text container">
+      {{ content }}
+    </div>
+  </section>
+  <section class="hero footer" id="contact">
+    <div class="text container">
+      <h2 class="small">Contact Me</h2>
+      <p>Interested in discussing a project? I'd love to hear from you! Email me at <strong>jerseygriggs.writes@gmail.com</strong> or use the contact form below.</p>
+      <section class="tight subsection">
+        <div class="form-wrap">
+          <form action="https://formspree.io/jerseygriggs.writes@gmail.com" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+            <label for="name">Email:</label>
+            <input type="email" name="_replyto">
+            <label for="message">Your Message:</label>
+            <textarea name="message"></textarea>
+            <input type="submit" class="submit button" value="Send">
+          </form>
+        </div>
+      </section>
+    </div>
   </section>
 </div>
-</section>
-</div>
+<!-- Jarallax -->
+<script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
+<script>
+  jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.2
+  });
+</script>
