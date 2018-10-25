@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.7/tiny-slider.css">
+<div class="testimonial-slider">
+  {% for testimonial in site.data.testimonials %}
+  <div>
+    <h3 class="no-margin-top">{{ testimonial.quote }}</h3>
+    <p>{{ testimonial.source }}</p>
+  </div>
+  {% endfor %}
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.7/min/tiny-slider.js"></script>
+<script>
+  var slider = tns({
+    container: '.testimonial-slider',
+    items: 1,
+    autoplay: true,
+    mode: 'gallery',
+    controls: false,
+    nav: false,
+    autoplayButtonOutput: false
+  });
+</script>
