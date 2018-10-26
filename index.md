@@ -18,7 +18,7 @@ Are you struggling to find the time to:
 
 ![Jersey Griggs](/images/jersey-small.jpg) I’m Jersey Griggs, a freelance copywriter for hire. 
 
-I specialize in alternative health and wellness writing and outdoor travel—[but I am not limited to these areas](/about/).
+I specialize in alternative health and wellness and outdoor travel—[but I am not limited to these areas](/about/).
 
 I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, social media, and more. I create informative, relevant, and compelling content that captivates your customers and sells your products.
 
