@@ -160,6 +160,9 @@ h2.sub-header {
 
 .border-top {
   border-top: 2px solid #442c2e;
+  &.thin {
+    border-width: 1px;
+  }
 }
 img {
   width: 100%;
@@ -213,4 +216,13 @@ label {
     &:hover {
       background-color: lighten(#1d4f6b, 15%);
     }
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.source {
+  margin-bottom: 0;
 }
