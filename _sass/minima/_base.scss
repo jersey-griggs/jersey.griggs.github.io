@@ -229,7 +229,7 @@ label {
   display: inline;
   height: 0;
   line-height: 0;
-  left: -10px;
+  left: -8px;
   position: relative;
   top: 10px;
   color: #674b4b;
@@ -242,7 +242,7 @@ label {
   display: inline;
   height: 0;
   line-height: 0;
-  left: 10px;
+  left: 8px;
   position: relative;
   top: 15px;
   color:#674b4b;
@@ -250,8 +250,7 @@ label {
   opacity: .75;
   font-family: "Lora";
 }
-
-
 .source {
+  opacity: .85;
   margin-bottom: 0;
 }
