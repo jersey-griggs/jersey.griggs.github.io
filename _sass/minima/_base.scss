@@ -234,8 +234,7 @@ label {
   top: 10px;
   color: #674b4b;
   font-size: 2em;
-  opacity: .75;
-  font-family: "Lora";
+  font-family: "Lora", serif;
 }
 .quotation::after {
   content: close-quote;
@@ -247,10 +246,9 @@ label {
   top: 15px;
   color:#674b4b;
   font-size: 2em;
-  opacity: .75;
-  font-family: "Lora";
+
+  font-family: "Lora", serif;
 }
 .source {
-  opacity: .85;
   margin-bottom: 0;
 }
