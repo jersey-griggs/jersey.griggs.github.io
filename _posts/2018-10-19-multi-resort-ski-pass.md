@@ -43,7 +43,7 @@ The high number of resorts on this pass also comes with a high price tag. If you
 While still cheaper than the Ikon pass at $949, enjoying the Epic Pass may depend on your location. It’s a no-brainer for people who ski in Colorado or Tahoe, but much of the West is pretty underrepresented. At the same token, East Coast skiers with easy access to Vermont will be happy to ski Okemo and Stowe. But with only one New Hampshire resort and none in Maine, some New Englanders may want to opt for a different pass closer to home.
 
 ### The Gnarly
-[Whistler Blackcomb Ski Resort](https://www.whistlerblackcomb.com/){:target="_blank"}  has a massive amount of terrain, breathtaking vistas around every turn, and a fun, Canadian vibe. The Peak 2 Peak Gondola is the world’s longest gondola ride, connecting Whistler to neighboring Blackcomb Mountain. Even if you didn’t like skiing, the stunning views would make the ride worth it alone. If you’re a powder hound, head to Symphony Bowl to try and find the goods. From there, you can take an exit into unpatrolled side country, where gleeful powder hoots are sure to be found. 
+[Whistler Blackcomb Ski Resort](https://www.whistlerblackcomb.com/){:target="_blank"}  has a massive amount of terrain, breathtaking vistas around every turn, and a fun, Canadian vibe. The Peak 2 Peak Gondola is the world’s longest gondola ride, connecting Whistler to neighboring Blackcomb Mountain. Even if you didn’t like skiing, the stunning views would make the ride worth it alone. If you’re a powder hound, head to Symphony Bowl to try and find the goods. From there, you can take an exit into unpatrolled side country, where gleeful powder hoots are sure to be found.
 
 ## 3. The Mountain Collective
 
@@ -59,5 +59,3 @@ The low price of The Mountain Collective is matched with a low number of ski day
 Cloistered in the Sangre de Cristo mountain range in northern New Mexico, Taos is somewhat off the beaten path—but well worth the trip. Before 2005, [Taos Ski Valley](https://www.skitaos.com/){:target="_blank"}  was a skiers-only mountain, but now snowboarders are also welcomed. Taos is known for its crazy steep runs, its inbound hiking, and it’s quirky and friendly locals. If you need to take a day off from skiing, you can explore the funky town of Taos or take a trip to nearby natural hot springs, for a nice long soak.
 
 There you have it—three passes filled with what dreams are made of. So pick your pass, grab your gear, and pray for some snow. Winter is coming. Where will you go first?
-
-
