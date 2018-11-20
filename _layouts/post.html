@@ -5,12 +5,8 @@ layout: default
   <section class="section page-hero jarallax" style="background-image:url({{ page.image }})">
   <div class="text container">
       <h1 class="align-center post-title {% if page.inverted-header == true%}inverted{% endif %}" itemprop="name headline">{{ page.title | escape }}</h1>
-  </div>
-      </section>
-
-    <div class="text container" itemprop="articleBody">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        <h6 class="muted no-margin-bottom">
+      <time class="post-info" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        <h6 class="muted no-margin-bottom no-margin-top">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {{ page.date | date: date_format }}
       <span>
@@ -18,7 +14,12 @@ layout: default
       </span>
       </h6>
     </time>
-      <section class="section no-padding-top">
+  </div>
+      </section>
+
+    <div class="text container" itemprop="articleBody">
+
+      <section class="tight section">
       {{ content }}
       </section>
     </div>
