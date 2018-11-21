@@ -16,7 +16,10 @@ layout: default
 <!-- Jarallax -->
 <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
 <script>
-  jarallax(document.querySelectorAll('.jarallax'), {
-    speed: 0.7
-});
+  var mq = window.matchMedia("(min-width: 767px)");
+  if (mq.matches) {
+    jarallax(document.querySelectorAll('.jarallax'), {
+      speed: .7
+    });
+  }
 </script>
