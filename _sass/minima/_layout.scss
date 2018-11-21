@@ -94,6 +94,7 @@
 .full-page.section {
   min-height: 100vh;
 }
+
 .relative {
   position: relative;
 }
@@ -106,7 +107,7 @@
   bottom: 0;
   left: 0;
   padding: 0.2rem 1.6rem;
-  border-radius: 0px 3px 0px 0px;
+  border-radius: 0 3px 0 0;
   background-color: #feeae4;
 }
 
@@ -432,6 +433,7 @@
 .page-hero {
   background-size: cover;
   padding: 128px 0;
+
   &.full-height {
     height: 89.3vh;
     @media(max-width: 767px) {
@@ -448,17 +450,19 @@
   background-color: #feeae4;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23442c2e' fill-opacity='0.02' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
 }
+
 .curved {
   top: -7%;
-width: 100%;
-position: absolute;
-@media (min-width: 1475px) {
-  top: -10%;
+  width: 100%;
+  position: absolute;
+  @media (min-width: 1475px) {
+    top: -10%;
+  }
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
-@media (max-width: 767px) {
-  display: none;
-}
-}
+
 .form-wrap {
   background-color: #fcfcfc;
   padding: 48px;
@@ -526,12 +530,14 @@ position: absolute;
   position: relative;
   min-height: 420px;
 }
+
 .tns-inner {
   margin-bottom: 60px;
   @media(max-width: 1200px) {
     margin-bottom: 40px;
   }
 }
+
 .tns-controls [disabled] {
   color: #999999;
   background: #B3B3B3;
@@ -565,10 +571,11 @@ position: absolute;
   bottom: -85px;
   left: calc(50% - 68px);
   z-index: 8;
- button {
-   -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
- box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
- }
+
+  button {
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+  }
 }
 
 .tns-controls [aria-controls] {
