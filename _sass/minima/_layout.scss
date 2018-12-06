@@ -503,15 +503,17 @@
   cursor: pointer;
   margin: 0;
   display: inline-block;
-  padding: 6px;
+  padding: .2rem .2rem;
   color: #9fa1ac;
   transition: all .2s ease;
+  transform: scale(.85);
   &:hover {
     color: #442c2e;
   }
   &.mixitup-control-active {
     color: #442c2e;
-    
+    transform: scale(1);
+
   }
 }
 
