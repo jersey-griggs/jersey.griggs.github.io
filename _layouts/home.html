@@ -4,7 +4,7 @@ layout: default
 <!-- Jarallax -->
 <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
 <div class="home">
-  <section class="hero full-height overlay jarallax">
+  <section class="hero full-height jarallax">
     <div class="text container">
       {%- if page.title -%}
       <h1 class="align-left">{{ page.title }}</h1>
@@ -13,11 +13,11 @@ layout: default
     </div>
   </section>
 
-  <section class="section relative">
     <div class="raised offset text relative z-index2 container">
+
+    <div class="raised offset text container relative z-index2 ">
       {{ content }}
     </div>
-  </section>
 
   <section class="section no-padding-top zig-zag">
     <div class="text container">
