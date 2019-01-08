@@ -4,9 +4,9 @@ layout: default
 <article class="" itemscope itemtype="http://schema.org/BlogPosting">
   <section class="section page-hero full-height jarallax relative" style="background-image:url({{ page.image }})">
   <div class="text container">
-      <h1 class="post-title {% if page.inverted-header == true%}inverted{% endif %}" itemprop="name headline">{{ page.title | escape }}</h1>
+      <h1 class="post-title no-margin-bottom {% if page.inverted-header == true%}inverted{% endif %}" itemprop="name headline">{{ page.title | escape }}</h1>
       <time class="post-info" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        <h4 class="inverted no-margin-bottom align-right post-title">
+        <h4 class="inverted no-margin-top align-left post-title">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {{ page.date | date: date_format }}
       <span>
@@ -17,11 +17,11 @@ layout: default
   </div>
       </section>
 
-    <div class="text container" itemprop="articleBody">
+    <div class="raised less offset relative z-index2 text container" itemprop="articleBody">
 
-      <section class="tight section">
+
       {{ content }}
-      </section>
+
     </div>
     <div class="text container">
     {%- include disqus_comments.html -%}
