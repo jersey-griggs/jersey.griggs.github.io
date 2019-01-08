@@ -378,9 +378,13 @@
     background-image: url("/images/plants.jpeg");
     position: relative;
     background-position-y: 40%;
-
+    background-size: cover;
+    padding: 26vh 0;
+    @media (max-width: 767px) {
+      padding: 32px 0;
+    }
     h1 {
-      font-size: 3.66rem;
+      font-size: 5.16rem;
       margin-top: 30px;
       @media (max-width: 767px) {
         font-size: 2.4rem;
@@ -414,8 +418,6 @@
         padding: 24px 0;
       }
     }
-    background-size: cover;
-    padding: 26vh 0;
     @media(max-width: 767px) {
       padding: 32px 0;
     }
