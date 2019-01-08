@@ -3,14 +3,14 @@ layout: page
 title: "Portfolio"
 description: "Check out my published articles, blog posts, and web copy in my copywriting portfolio."
 ---
-<div class="text container">
+<div class="raised text container">
   <p>Below is a collection of my published work, varying from blog and article posts to web copy for businesses. Click on the links provided to see the full body of work. Although I specialize in alternative health and wellness and outdoor travel
     and recreation, I am open to working with new industries. <a href="/#contact"><strong>Contact me</strong></a> if you are interested in discussing your project at hand.</p>
   <p>You also can head on over to <a href="/blog/">my blog</a> where I write about my personal interests, which vary from meditation to skiing to Ayurveda and herbalism.</p>
 </div>
 <section class="subsection">
-  <div class="text container">
-    <p><strong>Filter by Category:</strong></p>
+  <div class="raised text container">
+    <p class="no-margin-top"><strong>Filter by Category:</strong></p>
     {% assign categories = site.data.portfolio | map: 'category' | uniq %}
     <p class="item filter" data-filter="all">All</p>
     {% for category in categories %}
@@ -18,7 +18,9 @@ description: "Check out my published articles, blog posts, and web copy in my co
       {{ category }}
     </p>
     {% endfor %}
-    <div class="portfolio-wrap">
+    </div>
+    <div class="text container"
+>    <div class="portfolio-wrap">
       {% assign portfolio = site.data.portfolio %}
       {% for content in portfolio %}
       <div class="portfolio card mix {{ content.category | remove: " "  | remove: "&" }}">
