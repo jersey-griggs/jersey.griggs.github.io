@@ -334,7 +334,7 @@
   max-width: 720px;
   &.raised {
     &.offset {
-        margin-top: -27vh;
+        margin-top: -17vh;
         @media (max-width: 760px) {
           margin-top: -30px;
         }
@@ -530,6 +530,9 @@
   padding: 0.2rem 0.5rem;
   color: #9fa1ac;
   transition: all 0.2s ease;
+  border: 1px solid #9fa1ac;
+  margin-top: 8px;
+  border-radius: 4px;
 
   &:hover {
     color: #442c2e;
@@ -537,6 +540,7 @@
 
   &.mixitup-control-active {
     color: #442c2e;
+    border: 1px solid #442c2e;
     transform: scale(1);
   }
 }
