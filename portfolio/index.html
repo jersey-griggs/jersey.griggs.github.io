@@ -10,7 +10,7 @@ description: "Check out my published articles, blog posts, and web copy in my co
 </div>
 <section class="subsection">
   <div class="raised text container">
-    <p class="no-margin-top"><strong>Filter by Category:</strong></p>
+    <p class="no-margin"><strong>Filter by Category:</strong></p>
     {% assign categories = site.data.portfolio | map: 'category' | uniq %}
     <p class="item filter" data-filter="all">All</p>
     {% for category in categories %}
