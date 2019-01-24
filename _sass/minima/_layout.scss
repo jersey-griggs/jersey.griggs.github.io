@@ -334,7 +334,7 @@
   max-width: 720px;
   &.raised {
     &.offset {
-        margin-top: -17vh;
+        margin-top: -23vh;
         @media (max-width: 760px) {
           margin-top: -30px;
         }
@@ -463,7 +463,12 @@
     padding: 64px 0;
   }
 }
+.pink-gradient {
+  background: #feeae6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #fedbd0, #feeae6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #fedbd0, #feeae6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 .zig-zag {
   /* background by SVGBackgrounds.com */
   background-color: #feeae4;

@@ -16,11 +16,14 @@ layout: default
     </time>
   </div>
       </section>
+<section class="pink-gradient">
+
 
     <div class="raised less offset relative z-index2 text container" itemprop="articleBody">
       {{ content }}
       {%- include disqus_comments.html -%}
     </div>
+    </section>
     <div class="text container">
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       {%- if site.posts.size > 1 -%}
