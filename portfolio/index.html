@@ -19,8 +19,8 @@ description: "Check out my published articles, blog posts, and web copy in my co
     </p>
     {% endfor %}
     </div>
-    <div class="text container"
->    <div class="portfolio-wrap">
+    <div class="text container">
+      <div class="portfolio-wrap">
       {% assign portfolio = site.data.portfolio %}
       {% for content in portfolio %}
       <div class="portfolio card mix {{ content.category | remove: " "  | remove: "&" }}">

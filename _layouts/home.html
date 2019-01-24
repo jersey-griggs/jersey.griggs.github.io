@@ -22,6 +22,24 @@ layout: default
       {% include testimonial-slider.html %}
     </div>
   </section>
+  <section class="section pink-gradient top-shadow">
+    <div class="text container">
+      <h2>Latest Published Work</h2>
+    {% assign portfolio = site.data.portfolio %}
+    {% for content in portfolio limit:3 %}
+    <div class="portfolio card mix {{ content.category | remove: " "  | remove: "&" }}">
+      <a target="_blank" href="{{ content.url }}">
+        <div class="img-container" style="background-image: url({{ content.image }});">
+        </div>
+        <div class="card-content">
+          <h4 class="no-margin">{{ content.title }}</h4>
+          <small><a class="no-decoration" target="_blank" href="{{ content.url}}">{{ content.category }}</a></small>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  </section>
   <section class="hero footer jarallax" data-jarallax data-speed="1.3" id="contact">
     <div class="text container">
       <h2 class="small">Contact Me</h2>
