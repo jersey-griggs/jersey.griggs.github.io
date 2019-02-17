@@ -133,6 +133,7 @@
 
     .img-container {
       width: 180px;
+      min-height: 140px;
       @media(max-width: 600px) {
         height: 72px;
         width: 100%;
