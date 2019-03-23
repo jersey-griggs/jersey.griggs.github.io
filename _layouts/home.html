@@ -14,43 +14,43 @@ layout: default
   </section>
   <section class="section">
     <div class="container">
-        <div class="filter-wrap home">
-          <div class="column raised">
+      <div class="filter-wrap home">
+        <div class="column">
+          <h2 id="areyouasmallbusinesswithamindfulmission">Are you a small business with a mindful mission?</h2>
 
-            <h2 id="thatswhereicomein">That’s where I come in.</h2>
+          <p>Do you need quality content for your website or blog that will promote your products and attract new customers?</p>
 
-            <p><img src="/images/jersey-small.jpg" alt="Jersey Griggs" /> I’m Jersey Griggs, a freelance copywriter for hire.</p>
+          <p>Are you struggling to find the time to:</p>
 
-            <p>I specialize in alternative health and wellness and outdoor travel—<a href="/about/">but I am not limited to these areas</a>.</p>
+          <ul>
+            <li><em>Write that blog?</em></li>
 
-            <p>I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, social media, and more. I create informative, relevant, and compelling content that captivates your customers and sells your products.</p>
+            <li><em>Compose that email?</em></li>
 
-            <p><em>And I love working for clients who are mindful of their business and mission.</em></p>
+            <li><em>Draft that web copy?</em></li>
+          </ul>
 
-            <p>I help you reach your goals, so you can help your customers.</p>
+        </div>
+        <div class="column raised">
 
-            <p><strong><a href="/#contact">Contact me</a></strong> and let's start a conversation!</p>
-            </div>
-          <div class="column">
-            <section class="subsection">
-      <h2 id="areyouasmallbusinesswithamindfulmission">Are you a small business with a mindful mission?</h2>
+          <h2 id="thatswhereicomein">That’s where I come in.</h2>
 
-      <p>Do you need quality content for your website or blog that will promote your products and attract new customers?</p>
+          <p><img src="/images/jersey-small.jpg" alt="Jersey Griggs" /> I’m Jersey Griggs, a freelance copywriter for hire.</p>
 
-      <p>Are you struggling to find the time to:</p>
+          <p>I specialize in alternative health and wellness and outdoor travel—<a href="/about/">but I am not limited to these areas</a>.</p>
 
-      <ul>
-      <li><em>Write that blog?</em></li>
+          <p>I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, social media, and more. I create informative, relevant, and compelling content that captivates your customers and sells your
+            products.</p>
 
-      <li><em>Compose that email?</em></li>
+          <p><em>And I love working for clients who are mindful of their business and mission.</em></p>
 
-      <li><em>Draft that web copy?</em></li>
-      </ul>
-          </section>
+          <p>I help you reach your goals, so you can help your customers.</p>
+
+          <p><strong><a href="/#contact">Contact me</a></strong> and let's start a conversation!</p>
+        </div>
+      </div>
     </div>
-          </div>
-    </div>
-    </section>
+  </section>
   <section class="section no-padding-top zig-zag">
     <div class="text container">
       {% include testimonial-slider.html %}
@@ -59,24 +59,24 @@ layout: default
   <section class="section pink-gradient top-shadow">
     <div class="container">
       <h2>Latest Published Work</h2>
-          <div class="portfolio-wrap">
-    {% assign portfolio = site.data.portfolio %}
-    {% for content in portfolio limit:6 %}
-    <div class="portfolio card mix {{ content.category | remove: " "  | remove: "&" }}">
-      <a target="_blank" href="{{ content.url }}">
-        <div class="img-container" style="background-image: url({{ content.image }});">
+      <div class="portfolio-wrap">
+        {% assign portfolio = site.data.portfolio %}
+        {% for content in portfolio limit:6 %}
+        <div class="portfolio card mix {{ content.category | remove: " "  | remove: "&" }}">
+          <a target="_blank" href="{{ content.url }}">
+            <div class="img-container" style="background-image: url({{ content.image }});">
+            </div>
+            <div class="card-content">
+              <h4 class="no-margin">{{ content.title }}</h4>
+              <small><a class="no-decoration" target="_blank" href="{{ content.url}}">{{ content.category }}</a></small>
+            </div>
+          </a>
         </div>
-        <div class="card-content">
-          <h4 class="no-margin">{{ content.title }}</h4>
-          <small><a class="no-decoration" target="_blank" href="{{ content.url}}">{{ content.category }}</a></small>
-        </div>
-      </a>
-    </div>
 
-    {% endfor %}
-  </div>
-  <p class="align-center"><a href="/portfolio/">View Portfolio</a></p>
-</div>
+        {% endfor %}
+      </div>
+      <p class="align-center"><a href="/portfolio/">View Portfolio</a></p>
+    </div>
   </section>
   <section class="hero footer jarallax" data-jarallax data-speed="1.3" id="contact">
     <div class="text container">
