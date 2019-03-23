@@ -372,7 +372,7 @@
 .home {
   img {
     float: left;
-    width: 230px;
+    width: 160px;
     margin-right: 24px;
     position: relative;
     top: -10px;
@@ -398,7 +398,7 @@
     position: relative;
     background-position-y: 40%;
     background-size: cover;
-    padding: 34vh 0;
+    padding: 8vw 0;
     @media (max-width: 767px) {
       padding: 32px 0;
     }
@@ -550,6 +550,12 @@
 .filter-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  &.home {
+    grid-template-columns: 66vw 1fr;
+    @media(max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
   grid-column-gap: 2.5vw;
   @media(max-width: 767px) {
     grid-template-columns: 1fr;
