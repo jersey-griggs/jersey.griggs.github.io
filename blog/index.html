@@ -22,7 +22,7 @@ description: "Check out more of my work on my blog where I write about all my in
               {{ post.title | escape }}
             </a>
           </h2>
-          <p>{{ post.content | strip_html | truncatewords:100 }}</p>
+          <p>{{ post.content | strip_html | truncatewords:250 }}</p>
           <a class="button" href="{{ post.url | relative_url }}"><strong>Read More</strong></a>
         </div>
       </li>
