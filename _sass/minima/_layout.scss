@@ -388,7 +388,7 @@
     position: relative;
     background-position-y: 40%;
     background-size: cover;
-    padding: 8vw 0;
+    padding: 4vw 0;
     @media (max-width: 767px) {
       padding: 32px 0;
     }
@@ -455,7 +455,7 @@
 
 .page-hero {
   background-size: cover;
-  padding: 128px 0;
+  padding: 64px 0;
 
   &.full-height {
     height: 89.3vh;
@@ -542,7 +542,7 @@
   grid-template-columns: 1fr 1fr;
   &.home {
     grid-template-columns:20vw 1fr;
-    @media(max-width: 1020px) {
+    @media(max-width: 600px) {
       grid-template-columns: 1fr;
     }
   }
