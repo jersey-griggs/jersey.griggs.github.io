@@ -208,18 +208,6 @@
   image: 'https://blog.assets.thediscoverer.com/2019/04/Camp-Fire-in-Summer.jpg'
   url: "https://blog.thediscoverer.com/5-cool-summer-camps-for-adults/"
 
-- title: "7 Best Alaska Shore Excursions"
-  copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
-  category: "Cruise On"
-  image: 'https://blog.assets.cruiseon.com/2019/04/Alaska-Dog-Sled.jpg'
-  url: "https://blog.cruiseon.com/best-excursions-on-alaskan-cruises/"
-
-- title: "How a Cruise Ship is Christened"
-  copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
-  category: "Cruise On"
-  image: 'https://blog.assets.cruiseon.com/2019/05/Cruise-Ship-Christened.jpg'
-  url: "https://blog.cruiseon.com/how-a-cruise-ship-is-christened/"
-
 - title: "Best Bang-for-Your-Buck U.S. Cities"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
   category: "Seeqr"
@@ -274,12 +262,6 @@
   image: 'https://blog.assets.traveltrivia.com/2019/03/Denali.jpg'
   url: "https://blog.traveltrivia.com/most-dangerous-mountains-to-climb/"
 
-- title: "5 Bucket List Expedition Cruises"
-  copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
-  category: "Cruise On"
-  image: 'https://blog.assets.cruiseon.com/2019/03/Antarctic-Cruise.jpg'
-  url: "https://blog.cruiseon.com/best-expedition-cruises/"
-
 - title: "8 Friendliest Cities in the World"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
   category: "Travel Trivia"
@@ -316,23 +298,11 @@
   image: 'https://blog.assets.thediscoverer.com/2019/02/Downtown-of-Fort-Collins--Colorado.jpg'
   url: "https://blog.thediscoverer.com/10-u-s-cities-you-should-visit-in-2019/"
 
-- title: "5 Reasons to Book an Alaskan Cruise"
-  copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
-  category: "Cruise On"
-  image: 'https://blog.assets.cruiseon.com/2019/02/Alaska-Wildlife.jpg'
-  url: "https://blog.heroku.cruiseon.com/why-book-alaskan-cruise/"
-
 - title: "10 Popular Tourist Attractions That Are Overrated"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
   category: "Seeqr"
   image: 'https://blog.assets.seeqr.com/2019/02/Grand-Canyon-Skywalk.jpg'
   url: "https://blog.seeqr.com/overrated-tourist-destinations/"
-
-- title: "5 Reasons to Book a Caribbean Cruise"
-  copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
-  category: "Cruise On"
-  image: 'https://blog.assets.cruiseon.com/2019/02/Island-Hopping.jpg'
-  url: "https://blog.heroku.cruiseon.com/reasons-to-book-a-caribbean-cruise/"
 
 - title: "7 Most Eco-Friendly Cities in the World"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
@@ -370,18 +340,6 @@
   image: 'https://blog.assets.traveltrivia.com/2019/02/Pamukkale.jpg'
   url: "https://blog.traveltrivia.com/most-beautiful-natural-hot-springs/"
 
-- title: "The Most Romantic Cruises of 2019"
-  copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
-  category: "Cruise On"
-  image: 'https://blog.assets.cruiseon.com/2019/01/French-Polynesia-1.jpg'
-  url: "https://blog.cruiseon.com/most-romantic-cruises-2019/"
-
-- title: "The Best Cruise to Take in Each Decade of Your Life"
-  copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
-  category: "Cruise On"
-  image: 'https://blog.assets.cruiseon.com/2019/01/Galapagos.jpg'
-  url: "https://blog.cruiseon.com/best-cruise-for-each-decade-of-life/"
-
 - title: "The Ultimate Roadside Attraction Roadtrip"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
   category: "The Discoverer"
@@ -411,12 +369,6 @@
   category: "Seeqr"
   image: 'https://blog.assets.seeqr.com/2019/01/Belize.jpg'
   url: "https://blog.seeqr.com/best-snorkeling-locations/"
-
-- title: "Top 5 Cruise Destinations for 2019"
-  copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
-  category: "Cruise On"
-  image: 'https://blog.assets.cruiseon.com/2019/01/st-petersburg.jpg'
-  url: "https://blog.cruiseon.com/the-top-5-cruise-destinations-for-2019/"
 
 - title: "Warm-weather Parks You Need to Visit"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."

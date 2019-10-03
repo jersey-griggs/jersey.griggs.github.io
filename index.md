@@ -3,27 +3,14 @@ title: "Jersey Griggs"
 layout: home
 description: "Need a freelance writer for hire? I provide copy writing for mission-focused businesses who need blogs, articles, emails, webpages, and more."
 ---
-## Are you a small business with a mindful mission?
+Hey there! Thanks for stopping by.
 
-Do you need quality content for your website or blog that will promote your products and attract new customers?
+I’m a Maine-based freelance writer and editor with a passion for interesting perspectives and thoughtful words.
 
-Are you struggling to find the time to:
+I cover wellness, outdoor adventure, travel, and lifestyle topics on digital and print platforms.
 
-- *Write that blog?*
-- *Compose that email?*
-- *Draft that web copy?*
+My work has been featured in The Discoverer, Travel Trivia, Seeqr, The Sunrise Guide, Herbstalk and Elephant Journal.
 
-## That’s where I come in.
+I also work with clients in a varied capacity to assist with their writing needs. To learn more, head over to my services page.
 
-
-![Jersey Griggs](/images/jersey-small.jpg) I’m Jersey Griggs, a freelance copywriter for hire.
-
-I specialize in alternative health and wellness and outdoor travel—[but I am not limited to these areas](/about/).
-
-I work with clients who need blog content, web content, landing pages, email marketing, copy for brochures, social media, and more. I create informative, relevant, and compelling content that captivates your customers and sells your products.
-
-*And I love working for clients who are mindful of their business and mission.*
-
-I help you reach your goals, so you can help your customers.
-
-**[Contact me](/#contact)** and let's start a conversation!
+If you have a project you’d like to discuss, please **[reach out to me](/#contact)** directly. I look forward to hearing from you!
