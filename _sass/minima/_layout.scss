@@ -116,6 +116,12 @@
   @media(max-width: 780px) {
     grid-template-columns: 1fr;
   }
+  @media(min-width: 1600px) {
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+   @media(min-width: 2380px) {
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 .card {
   background-color: #fff;
@@ -498,6 +504,7 @@
 .flowers {
   background-image: url(/images/flowers.jpg);
   background-size: cover;
+  // padding-bottom: 8vw;
   // box-shadow: inset 0px 34px 43px #402a2c;
 }
 // .quote-wrapper {
