@@ -386,10 +386,6 @@
   }
 
   .hero {
-    background-image: url("/images/plants.jpeg");
-    position: relative;
-    background-position-y: 40%;
-    background-size: cover;
     padding: 6.5vw 0;
     @media (max-width: 767px) {
       padding: 32px 0;
@@ -397,7 +393,7 @@
 
     h1 {
       font-size: 5.16rem;
-      margin-top: 30px;
+      margin-top: 0px;
       @media (max-width: 767px) {
         font-size: 2.4rem;
       }
