@@ -2,12 +2,12 @@
 layout: default
 ---
 
-  <section class="section home">
+  <section class="section home dark-plants">
     <div class="text container hero">
       {%- if page.title -%}
-      <h1 class="align-left">{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
       {%- endif -%}
-      <h2 class="align-left">Freelance Writer</h2>
+      <h2>Freelance Writer</h2>
         <div class="hero-content">
           <p>Hey there! Thanks for stopping by.</p>
           <p>I’m a Maine-based freelance writer and editor with a passion for interesting perspectives and thoughtful words. I cover wellness, outdoor adventure, travel, and lifestyle topics on digital and print platforms. </p>
@@ -16,7 +16,7 @@ layout: default
           </div>
       </div>
   </section>
-  <section class="section flowers">
+  <section class="section svg-circles">
     <div class="container raised testimonial">
       {% include testimonial-slider.html %}
     </div>
@@ -43,31 +43,9 @@ layout: default
       <p class="align-center"><a href="/portfolio/"><strong>View Portfolio</strong></a></p>
     </div>
   </section>
-  <div class="home">
-  <section class="hero footer jarallax" data-jarallax data-speed="1.3" id="contact">
-    <div class="text container">
-      <h2 class="small">Contact Me</h2>
-      <p>Interested in discussing a project? I'd love to hear from you! Email me at <strong>jerseygriggs.writes@gmail.com</strong> or use the contact form below.</p>
-      <section class="tight subsection">
-        <div class="form-wrap">
-          <form action="https://formspree.io/jerseygriggs.writes@gmail.com" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" name="name">
-            <label for="name">Email:</label>
-            <input type="email" name="_replyto">
-            <label for="message">Your Message:</label>
-            <textarea name="message"></textarea>
-            <input type="submit" class="submit button" value="Send">
-          </form>
-        </div>
-      </section>
+  <section class="section hero footer light-bg" id="contact">
+    <div class="text container home">
+      <h2>Contact Me</h2>
+      <p>Interested in discussing a project? I'd love to hear from you! Email me at <strong>jerseygriggs.writes@gmail.com</strong>.</p>
     </div>
   </section>
-  </div>
-<script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
-<script>
-    jarallax(document.querySelectorAll('.jarallax'), {
-      speed: .7
-    });
-
-</script>
