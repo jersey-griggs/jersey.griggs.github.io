@@ -80,7 +80,9 @@
   &.tight {
     padding: 30px 0;
   }
-
+  &.tight-padding-top {
+    padding-top: 30px;
+  }
   &.no-padding-top {
     padding-top: 0;
   }
@@ -389,7 +391,7 @@
 .home {
   img {
     margin-top: 0;
-    border-radius: 4px;
+    border-radius: 0.2rem;
   }
 
   h2 {

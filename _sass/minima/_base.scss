@@ -230,3 +230,11 @@ img {
 .pointer {
   cursor: pointer;
 }
+.z-one {
+  position: relative;
+  z-index: 1;
+}
+.z-two {
+  position: relative;
+  z-index: 2;
+}
