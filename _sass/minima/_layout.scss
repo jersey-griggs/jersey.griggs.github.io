@@ -509,9 +509,10 @@
 .light-bg {
   background-color:#fff9f8;
 }
-.dark-plants {
-  background-image: url(/images/plants-dark.svg);
+.pink-abstract-flip {
+  background-image: url(/images/pink-abstract.jpg);
   background-size: cover;
+  background-position-y: -140px;
 }
 .skew {
   transform: translateX(-114px) rotateZ(-33deg);
@@ -521,10 +522,6 @@
 }
 
 .social-media-list {
-  display: block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
   text-align: center;
 
   li {
