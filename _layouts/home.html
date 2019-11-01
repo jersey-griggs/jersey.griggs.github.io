@@ -8,33 +8,34 @@ layout: default
         <div class="column">
 
         </div>
-          <div class="column">
-      {%- if page.title -%}
-      <h1 class="align-left">{{ page.title }}</h1>
-      {%- endif -%}
-      <h2 class="align-left">Freelance Writer</h2>
-      </div>
+        <div class="column">
+          {%- if page.title -%}
+          <h1 class="align-left">{{ page.title }}</h1>
+          {%- endif -%}
+          <h2 class="align-left">Freelance Writer</h2>
+        </div>
       </div>
     </div>
     <div class="container">
-     <div class="filter-wrap home">
-       <div class="column">
-         <img src="/images/jersey-small.jpg" alt="Jersey Griggs" />
-       </div>
-       <div class="column raised">
-         <p>Hey there! Thanks for stopping by.</p>
-         <p>I’m a Maine-based freelance writer and editor with a passion for interesting perspectives and thoughtful words. I cover wellness, outdoor adventure, travel, and lifestyle topics on digital and print platforms. </p>
-         <p>My work has been featured in The Discoverer, Travel Trivia, Seeqr, Outside Bozeman, The Sunrise Guide, Herbstalk, and Elephant Journal.</p>
-         <p>I also work with clients in a varied capacity to assist with their writing needs. To learn more, head over to my services page. If you have a project you’d like to discuss, please <strong><a href="/#contact">reach out to me directly</a></strong>. I look forward to hearing from you!</p>
-       </div>
-     </div>
-   </div>
+      <div class="filter-wrap home">
+        <div class="column">
+          <img src="/images/jersey-small.jpg" alt="Jersey Griggs" />
+        </div>
+        <div class="column raised">
+          <p>Hey there! Thanks for stopping by.</p>
+          <p>I’m a Maine-based freelance writer and editor with a passion for interesting perspectives and thoughtful words. I cover wellness, outdoor adventure, travel, and lifestyle topics on digital and print platforms. </p>
+          <p>My work has been featured in The Discoverer, Travel Trivia, Seeqr, Outside Bozeman, The Sunrise Guide, Herbstalk, and Elephant Journal.</p>
+          <p>I also work with clients in a varied capacity to assist with their writing needs. To learn more, head over to my services page. If you have a project you’d like to discuss, please <strong><a href="/#contact">reach out to me directly</a></strong>.
+            I look forward to hearing from you!</p>
+        </div>
+      </div>
+    </div>
   </section>
-  <section class="section no-padding-top zig-zag">
-  <div class="text container">
-    {% include testimonial-slider.html %}
-  </div>
-</section>
+  <section class="section zig-zag">
+    <div class="text container">
+      {% include testimonial-slider.html %}
+    </div>
+  </section>
   <section class="section pink-gradient top-shadow">
     <div class="container">
       <h2>Latest Published Work</h2>
@@ -63,22 +64,10 @@ layout: default
         <div class="column">
 
         </div>
-          <div class="column">
-      <h2>Contact Me</h2>
-      <p>Interested in discussing a project? I'd love to hear from you! Email me at <strong>jerseygriggs.writes@gmail.com</strong>.</p>
-      </div>
+        <div class="column">
+          <h2>Contact Me</h2>
+          <p>Interested in discussing a project? I'd love to hear from you! Email me at <strong>jerseygriggs.writes@gmail.com</strong>.</p>
+        </div>
       </div>
     </div>
   </section>
-
-  <!-- Jarallax -->
-  <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
-
-  <script>
-    var mq = window.matchMedia("(min-width: 767px)");
-    if (mq.matches) {
-      jarallax(document.querySelectorAll('.jarallax'), {
-        speed: .7
-      });
-    }
-  </script>
