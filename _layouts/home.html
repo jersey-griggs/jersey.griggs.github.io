@@ -1,24 +1,32 @@
 ---
 layout: default
 ---
-
-  <section class="section home dark-plants">
-    <div class="text container hero">
+<div class="home">
+  <section class="hero">
+    <div class="text container">
       {%- if page.title -%}
-      <h1>{{ page.title }}</h1>
       {%- endif -%}
-      <h2>Freelance Writer</h2>
-        <div class="hero-content">
-          <p>Hey there! Thanks for stopping by.</p>
-          <p>I’m a Maine-based freelance writer and editor with a passion for interesting perspectives and thoughtful words. I cover wellness, outdoor adventure, travel, and lifestyle topics on digital and print platforms. </p>
-          <p>My work has been featured in The Discoverer, Travel Trivia, Seeqr, Outside Bozeman, The Sunrise Guide, Herbstalk, and Elephant Journal.</p>
-          <p>I also work with clients in a varied capacity to assist with their writing needs. To learn more, head over to my services page. If you have a project you’d like to discuss, please <strong><a href="/#contact">reach out to me directly</a></strong>. I look forward to hearing from you!</p>
-          </div>
-      </div>
-      <div class="container raised testimonial">
-        {% include testimonial-slider.html %}
-      </div>
+      <h2 class="align-left">Freelance Writer</h2>
+    </div>
+    <div class="container">
+     <div class="filter-wrap home">
+       <div class="column">
+         <img src="/images/jersey-small.jpg" alt="Jersey Griggs" />
+       </div>
+       <div class="column raised">
+         <p>Hey there! Thanks for stopping by.</p>
+         <p>I’m a Maine-based freelance writer and editor with a passion for interesting perspectives and thoughtful words. I cover wellness, outdoor adventure, travel, and lifestyle topics on digital and print platforms. </p>
+         <p>My work has been featured in The Discoverer, Travel Trivia, Seeqr, Outside Bozeman, The Sunrise Guide, Herbstalk, and Elephant Journal.</p>
+         <p>I also work with clients in a varied capacity to assist with their writing needs. To learn more, head over to my services page. If you have a project you’d like to discuss, please <strong><a href="/#contact">reach out to me directly</a></strong>. I look forward to hearing from you!</p>
+       </div>
+     </div>
+   </div>
   </section>
+  <section class="section no-padding-top zig-zag">
+  <div class="text container">
+    {% include testimonial-slider.html %}
+  </div>
+</section>
   <section class="section pink-gradient top-shadow">
     <div class="container">
       <h2>Latest Published Work</h2>
@@ -41,9 +49,21 @@ layout: default
       <p class="align-center"><a href="/portfolio/"><strong>View Portfolio</strong></a></p>
     </div>
   </section>
-  <section class="section hero footer light-bg" id="contact">
+  <section class="section light-bg" id="contact">
     <div class="text container home">
       <h2>Contact Me</h2>
       <p>Interested in discussing a project? I'd love to hear from you! Email me at <strong>jerseygriggs.writes@gmail.com</strong>.</p>
     </div>
   </section>
+
+  <!-- Jarallax -->
+  <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
+
+  <script>
+    var mq = window.matchMedia("(min-width: 767px)");
+    if (mq.matches) {
+      jarallax(document.querySelectorAll('.jarallax'), {
+        speed: .7
+      });
+    }
+  </script>

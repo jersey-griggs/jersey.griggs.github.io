@@ -1,7 +1,7 @@
 .main-header {
   align-items: center;
   display: flex;
-  background-color: #fedbd0;
+  background-color: #fed4d6;
   width: 100%;
   position: fixed;
   z-index: 9;
@@ -52,13 +52,11 @@
           }
 
           &:hover {
-            background-color: #442c2e;
-            color: #ffdbcf;
+            background-color: #aae5e4;
           }
 
           &.active {
-            background-color: #442c2e;
-            color: #ffdbcf;
+            background-color: #aae5e4;
           }
         }
       }
@@ -338,7 +336,7 @@
 }
 
 .raised {
-  background-color: #fff9f8;
+  background-color:#fff9f8;
   padding: 1.5rem;
   border-radius: 0.2rem;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
@@ -390,9 +388,8 @@
 
 .home {
   img {
-    margin-top: 3vw;
+    margin-top: 0;
     border-radius: 4px;
-    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
   }
 
   h2 {
@@ -406,11 +403,16 @@
   }
 
   .hero {
-
+    background-image: url("/images/pink-abstract.jpg");
+     position: relative;
+     background-position-y: 40%;
+     background-size: cover;
+     padding: 6.5vw 0 0 0;
+     @media (max-width: 767px) {
+       padding: 32px 0;
+     }
     h1 {
       font-size: 5.76rem;
-      color: #feded5;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
       @media (max-width: 767px) {
         font-size: 2.4rem;
       }
@@ -418,16 +420,9 @@
 
     h2 {
       font-size: 2.3rem;
-      color: #feded5;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
       @media (max-width: 767px) {
         font-size: 1.6rem;
       }
-    }
-
-    p, a {
-      color: #feded5;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
     }
 
     &.overlay {
@@ -476,7 +471,7 @@
 
 .hero-content {
   padding-bottom: 90px;
-  
+
 }
 
 .page-hero {
@@ -497,9 +492,9 @@
 .pink-gradient {
   background: #feeae6;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #fedbd0, #feeae6);
+  background: -webkit-linear-gradient(to bottom, #fed4d6, #fee9ea);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #fedbd0, #feeae6);
+  background: linear-gradient(to bottom, #fed4d6, #fee9ea);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .top-shadow {
@@ -511,7 +506,7 @@
 }
 
 .light-bg {
-  background-color: #fff9f8;
+  background-color:#fff9f8;
 }
 .dark-plants {
   background-image: url(/images/plants-dark.svg);
@@ -570,7 +565,6 @@
   }
   &.home {
     grid-template-columns:20vw 1fr;
-    margin-top: -9vw;
     position: relative;
     z-index: 2;
     @media(max-width: 600px) {
@@ -682,4 +676,10 @@
   background-color: #fedbd0;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23feeae6' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23fedbd0' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23f8d2ca' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f2c8c6' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ebbfc1' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e4b7be' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23dbaebb' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23d2a7b8' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23c89fb6' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23bc98b4' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23b091b1' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23a38baf' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%239585ac' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%238680a8' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23757aa4' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2364759f' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%2352709a' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%233d6b93' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%2325668b' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
   background-size: cover;
+}
+.zig-zag {
+  /* background by SVGBackgrounds.com */
+  background-color: #feeae4;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23442c2e' fill-opacity='0.04' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+  box-shadow: inset 0 3px 8px rgba(0,0,0,0.08);
 }
