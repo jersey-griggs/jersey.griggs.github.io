@@ -51,13 +51,16 @@
             padding: 10px;
           }
 
-          &:hover {
-            background-color: #aae5e4;
-          }
 
-          &.active {
-            background-color: #aae5e4;
-          }
+            &:hover {
+              background-color: #442c2e;
+              color: #ffdbcf;
+            }
+
+            &.active {
+              background-color: #442c2e;
+              color: #ffdbcf;
+            }
         }
       }
     }
@@ -566,8 +569,14 @@
       grid-template-columns: 1fr;
     }
   }
+  &.greeting {
+        grid-template-columns:150px 600px;
+        @media(max-width: 887px) {
+          grid-template-columns: 1fr;
+        }
+  }
   &.home {
-    grid-template-columns:20vw 1fr;
+    grid-template-columns:150px 1fr;
     position: relative;
     z-index: 2;
     @media(max-width: 600px) {
