@@ -571,6 +571,7 @@
   }
   &.greeting {
         grid-template-columns:150px 600px;
+        padding: 0;
         @media(max-width: 887px) {
           grid-template-columns: 1fr;
         }
@@ -607,8 +608,7 @@
 
   &.mixitup-control-active {
     color: #442c2e;
-    transform: scale(1);
-    background-color: #ffd759;
+    background-color:#aae5e4;
     font-weight: 600;
   }
 }
