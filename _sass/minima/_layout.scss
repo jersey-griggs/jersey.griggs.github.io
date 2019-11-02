@@ -405,9 +405,9 @@
   }
 
   .hero {
-    background-image: url("/images/cherry.jpg");
+    background-image: url("/images/pink-flower.jpg");
      position: relative;
-     background-position-y: 74%;
+     background-position-y: center;
      background-size: cover;
      @media (max-width: 767px) {
        padding: 32px 0;
@@ -502,8 +502,9 @@
     box-shadow: inset 0 3px 8px rgba(0,0,0,0.08);
 }
 .flowers {
-  background-image: url(/images/leaves-bottom.jpg);
+  background-image: url(/images/flowers.jpg);
   background-size: cover;
+  background-position-y: center;
 }
 
 .light-bg {
@@ -522,6 +523,10 @@
 }
 
 .social-media-list {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
   text-align: center;
 
   li {
@@ -570,7 +575,7 @@
       margin-top: 0px;
     }
   }
-  grid-column-gap: 2.5vw;
+  grid-column-gap: 1.2rem;
   @media(max-width: 767px) {
     grid-template-columns: 1fr;
   }
@@ -630,10 +635,6 @@
 
 .tns-nav > .tns-nav-active {
   background: #442c2e;
-}
-
-.tns-controls {
-display: none;
 }
 
 .tns-controls [aria-controls] {
