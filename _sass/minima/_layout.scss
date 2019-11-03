@@ -136,15 +136,27 @@ article {
   }
 }
 .card {
-  background-color: rgba(255,255, 255, .4);
+  background-color: rgba(255,255, 255, .5);
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
   border-radius: 3px;
   display: grid;
   grid-template-columns: 40vw;
-
+  transition: all .22s ease;
+  &:hover {
+    transform: scale(1.03);
+    background-color: rgba(255,255, 255, .8);
+    box-shadow: 0 20px 40px -12px rgba(0,0,0,.15), 0 18px 24px -18px rgba(0,0,0,.1), 0 -12px 24px -8px rgba(0,0,0,.02);
+  }
   .post-date {
     margin: 0;
     color: #9fa1ac;
+  }
+  a {
+    text-decoration: none;
+  }
+  h4{
+    line-height: 1.35;
+    font-size: 1.1rem;
   }
 
   &.portfolio {
