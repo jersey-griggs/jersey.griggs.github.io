@@ -71,7 +71,8 @@ layout: default
     var mq = window.matchMedia("(min-width: 767px)");
     if (mq.matches) {
       jarallax(document.querySelectorAll('.jarallax'), {
-        speed: .6
+        speed: -.6,
+        type: "scroll-opacity"
       });
     }
   </script>
