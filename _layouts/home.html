@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="home">
-  <section class="hero jarallax">
+  <section class="hero">
     <div class="container">
       <div class="filter-wrap home">
         <div class="column">
@@ -48,7 +48,7 @@ layout: default
             </div>
             <div class="card-content">
               <h4 class="no-margin">{{ content.title }}</h4>
-              <small><a class="no-decoration" target="_blank" href="{{ content.url}}">{{ content.category }}</a></small>
+              <small><a class="muted no-decoration" target="_blank" href="{{ content.url}}">{{ content.category }}</a></small>
             </div>
           </a>
         </div>
@@ -71,7 +71,7 @@ layout: default
     var mq = window.matchMedia("(min-width: 767px)");
     if (mq.matches) {
       jarallax(document.querySelectorAll('.jarallax'), {
-        speed: .6,
+        speed: 1.7,
         type: "scroll-opacity"
       });
     }
