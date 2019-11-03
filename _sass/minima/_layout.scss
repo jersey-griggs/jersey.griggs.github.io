@@ -131,6 +131,9 @@ article {
    @media(min-width: 2380px) {
      grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  &.home {
+    padding-top: 0;
+  }
 }
 .card {
   background-color: rgba(255,255, 255, .4);
