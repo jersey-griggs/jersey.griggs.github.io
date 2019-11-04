@@ -143,9 +143,8 @@ article {
   border-radius: 3px;
   display: grid;
   grid-template-columns: 40vw;
-  transition: all .22s ease;
+  transition: box-shadow .22s ease;
   &:hover {
-    transform: scale(1.03);
     background-color: rgba(255,255, 255, .8);
     box-shadow: 0 20px 40px -12px rgba(0,0,0,.15), 0 18px 24px -18px rgba(0,0,0,.1), 0 -12px 24px -8px rgba(0,0,0,.02);
   }
