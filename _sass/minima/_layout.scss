@@ -449,7 +449,7 @@ article {
     }
 
     h2 {
-      font-size: 2.2rem;
+      font-size: 2.8rem;
       font-family: 'Lora', serif;
       @media (max-width: 767px) {
         font-size: 1.6rem;
@@ -658,14 +658,11 @@ article {
 
 .tns-nav {
   text-align: center;
-  position: absolute;
-  bottom: -40px;
-  left: calc(50% - 44px);
 }
 
 .tns-nav > [aria-controls] {
-  width: 14px;
-  height: 14px;
+  width: 23px;
+  height: 23px;
   padding: 0;
   margin: 0 5px;
   border-radius: 50%;
