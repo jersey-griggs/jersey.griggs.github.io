@@ -9,7 +9,7 @@ I’m a Maine-based freelance writer and editor with a passion for interesting p
 
 I cover wellness, outdoor adventure, travel, and lifestyle topics on digital and print platforms.
 
-My work has been featured in The Discoverer, Travel Trivia, Seeqr, The Sunrise Guide, Herbstalk and Elephant Journal.
+My work has been featured in Business Insider, The Discoverer, Travel Trivia, Seeqr, The Sunrise Guide, Herbstalk and Elephant Journal.
 
 I also work with clients in a varied capacity to assist with their writing needs. To learn more, head over to my services page.
 
