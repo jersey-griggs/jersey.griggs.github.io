@@ -22,11 +22,17 @@
   image: 'https://blog.assets.thediscoverer.com/2020/04/lost-kitchen.jpg'
   url: "https://www.thediscoverer.com/blog/7-cookbooks-that-will-inspire-your-next-trip/"
 
-  - title: "The First 5 Recipes to Try from <em>Israeli Soul</em> "
-    copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
-    category: "The Discoverer"
-    image: 'https://blog.assets.thediscoverer.com/2020/06/shutterstock_1264053073-copy.jpg'
-    url: "https://www.thediscoverer.com/blog/5-recipes-to-try-from-israeli-soul/"
+- title: "How to Pick the Right Sandals For Every Type of Summer Adventure"
+  copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
+  category: "The Discoverer"
+  image: 'https://blog.assets.thediscoverer.com/2020/06/photo-1535052204718-55672fc78096-copy.jpeg'
+  url: "https://www.thediscoverer.com/blog/summer-sandals/XvHyVpKgiwAG5a3L"
+
+- title: "The First 5 Recipes to Try from <em>Israeli Soul</em> "
+  copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
+  category: "The Discoverer"
+  image: 'https://blog.assets.thediscoverer.com/2020/06/shutterstock_1264053073-copy.jpg'
+  url: "https://www.thediscoverer.com/blog/5-recipes-to-try-from-israeli-soul/"
 
 - title: "Have a Tapas Night at Home With These Three Easy Spanish Dishes"
   copy: "Tackle three major challenges to get to the root of an app. Find more in this guide to getting full visibility into Salesforce and more."
