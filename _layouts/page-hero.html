@@ -5,7 +5,7 @@ layout: default
   <section class="section page-hero jarallax" style="background-image:url({{ page.hero-image }});">
     <div class="text container">
       <section class="subsection">
-        <h1 class="align-center">{{ page.title | escape }}</h1>
+        <h1 class="align-center {% if page.use_inverted_heading == true %}inverted{% endif %}">{{ page.title | escape }}</h1>
       </section>
     </div>
 </section>
